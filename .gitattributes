@@ -1,0 +1,5 @@
+* text=auto eol=lf
+*.png binary
+*.woff2 binary
+/frontend/vendor/contract/** -text
+/backend/vendor/contract/** -text

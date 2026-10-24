@@ -1,0 +1,17 @@
+import { resolve } from 'node:path';
+import { createApp } from './server.js';
+import { CONTRACT_VERSION } from './contracts.js';
+const env=process.env;
+const token=env.MOTION_OPERATOR_TOKEN||undefined;
+const port=Number(env.MOTION_PORT??4011),host=env.MOTION_HOST??'127.0.0.1';
+if(!Number.isInteger(port)||port<1||port>65535)throw new Error('INVALID_PORT');
+if(!['127.0.0.1','localhost','::1'].includes(host)&&!token)throw new Error('NON_LOOPBACK_REQUIRES_OPERATOR_TOKEN');
+const mode=env.MOTION_EXECUTION_MODE??'MOCK';if(!['MOCK','TESTNET'].includes(mode))throw new Error('INVALID_EXECUTION_MODE');
+const demo=env.MOTION_ENABLE_DEMO_SCENARIOS==='1';
+if(demo&&(mode!=='MOCK'||!['127.0.0.1','localhost','::1'].includes(host)))throw new Error('DEMO_SCENARIOS_REQUIRE_LOCAL_MOCK');
+const configured=['MOTION_LLM_BASE_URL','MOTION_LLM_MODEL','MOTION_LLM_API_KEY'].every(key=>!!env[key]);
+const resourceMode=env.MOTION_RESOURCE_MODE??'live';if(!['live','sandbox'].includes(resourceMode))throw new Error('INVALID_RESOURCE_MODE');
+if(demo&&resourceMode==='live')throw new Error('DEMO_SCENARIOS_REQUIRE_SANDBOX_RESOURCES');
+const app=await createApp({dbPath:resolve(env.MOTION_DB_PATH??'data/private/motion.sqlite'),operatorToken:token,executionMode:mode as 'MOCK'|'TESTNET',resourceMode:resourceMode as 'live'|'sandbox',testScenarioHeader:demo,allowedOrigins:env.MOTION_ALLOWED_ORIGINS?.split(',').filter(Boolean)});
+app.server.listen(port,host,()=>console.log(JSON.stringify({service:'motion-guard',url:`http://${host}:${port}`,contractVersion:CONTRACT_VERSION,executionMode:'MOCK',resourceMode,dataMode:resourceMode==='live'?'LIVE_HTTP':'SANDBOX',authMode:token?'OPERATOR_SESSION':'MOCK_UNAUTHENTICATED',modelMode:configured?'OPENAI_COMPATIBLE_API':'DETERMINISTIC_SANDBOX',chainPaymentVerified:false})));
+for(const signal of ['SIGINT','SIGTERM'] as const)process.once(signal,()=>{void app.close().then(()=>process.exit(0));});

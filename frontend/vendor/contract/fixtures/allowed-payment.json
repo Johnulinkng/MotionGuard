@@ -1,0 +1,74 @@
+{
+  "schemaVersion": "0.1.0",
+  "paymentId": "payment_demo",
+  "taskId": "task_demo",
+  "version": 1,
+  "planItemId": "item_report",
+  "logicalPurchaseId": "purchase_demo",
+  "state": "SETTLED",
+  "executionMode": "MOCK",
+  "authorizationStatus": "SIMULATED",
+  "vendorId": "vendor_alpha",
+  "toolId": "tool_alpha",
+  "routeId": "route_alpha_report",
+  "resourceKind": "DOCUMENT",
+  "method": "GET",
+  "asset": {
+    "network": "eip155:84532",
+    "tokenAddress": "0x036cbd53842c5426634e7929541ec2318f3dcf7e",
+    "symbol": "USDC",
+    "decimals": 6
+  },
+  "payTo": "0x1111111111111111111111111111111111111111",
+  "amountAtomic": "10000",
+  "requestHash": "sha256:4444444444444444444444444444444444444444444444444444444444444444",
+  "offerHash": "sha256:5555555555555555555555555555555555555555555555555555555555555555",
+  "decision": {
+    "schemaVersion": "0.1.0",
+    "decisionId": "decision_demo",
+    "taskId": "task_demo",
+    "paymentId": "payment_demo",
+    "type": "ALLOW",
+    "hardGate": "PASS",
+    "reasonCodes": [
+      "PLAN_MATCH"
+    ],
+    "summary": "符合冻结计划；此记录仅为MOCK。",
+    "requestHash": "sha256:4444444444444444444444444444444444444444444444444444444444444444",
+    "offerHash": "sha256:5555555555555555555555555555555555555555555555555555555555555555",
+    "evidenceIds": [
+      "evidence_demo"
+    ],
+    "planHash": "sha256:3333333333333333333333333333333333333333333333333333333333333333",
+    "authorizationVersion": 1,
+    "policyVersion": "policy_v1",
+    "memoryVersion": "memory_m0",
+    "reviewers": [
+      {
+        "role": "THREAT",
+        "verdict": "ALLOW",
+        "reasonCode": "NO_REGISTERED_THREAT",
+        "evidenceIds": [
+          "evidence_demo"
+        ]
+      },
+      {
+        "role": "CONSISTENCY",
+        "verdict": "ALLOW",
+        "reasonCode": "RESOURCE_PLAN_MATCH",
+        "evidenceIds": [
+          "evidence_demo"
+        ]
+      }
+    ],
+    "expiresAt": "2099-01-01T00:00:00.000Z"
+  },
+  "receipt": {
+    "status": "SIMULATED",
+    "transactionHash": null,
+    "mockReceiptId": "mock_receipt_demo",
+    "checkedAt": "2026-10-24T06:00:00.000Z"
+  },
+  "createdAt": "2026-10-24T06:00:00.000Z",
+  "updatedAt": "2026-10-24T06:00:00.000Z"
+}

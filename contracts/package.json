@@ -1,0 +1,21 @@
+{
+  "name": "motion-guard-contracts",
+  "version": "0.2.0",
+  "private": true,
+  "type": "module",
+  "description": "Local OpenAPI validation and fixture mock tooling for Motion Guard.",
+  "engines": {
+    "node": ">=22.19.0"
+  },
+  "scripts": {
+    "validate": "node validate-contract.mjs",
+    "mock": "node mock-server.mjs",
+    "test": "node --test test-contract.mjs",
+    "check": "npm run validate && npm test && node mock-server.mjs --check"
+  },
+  "devDependencies": {
+    "@apidevtools/swagger-parser": "13.1.0",
+    "ajv": "8.20.0",
+    "ajv-formats": "3.0.1"
+  }
+}

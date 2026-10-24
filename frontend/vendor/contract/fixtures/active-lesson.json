@@ -1,0 +1,22 @@
+{
+  "schemaVersion": "0.1.0",
+  "lessonId": "lesson_demo",
+  "version": 1,
+  "status": "ACTIVE",
+  "mechanism": "任务目标一致但诱导购买额外服务",
+  "summary": "复核请求是否绑定原计划item；模型推荐不能扩展授权。",
+  "applicability": "资料采购中的计划外附加验证费",
+  "sourceEvidenceIds": [
+    "evidence_demo"
+  ],
+  "memoryVersion": "memory_m1",
+  "promotion": {
+    "promotionId": "promotion_demo",
+    "originReplayPassed": true,
+    "variantPassed": 2,
+    "benignPassed": 2,
+    "regressionPassed": true,
+    "permissionsUnchanged": true,
+    "publishedAt": "2026-10-24T06:00:00.000Z"
+  }
+}

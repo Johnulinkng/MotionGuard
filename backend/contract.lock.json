@@ -1,0 +1,9 @@
+{
+  "contract_version": "0.2.0",
+  "source": "../contracts/openapi.json",
+  "snapshot": "vendor/contract/openapi.json",
+  "hash_algorithm": "sha256",
+  "sha256": "d470a5e6d57427b37e3fc3db2b845c8a2cf295a586f5a7766742fbc241f58235",
+  "bundle_sha256": "0410c9d200b8fbaf68ac6ec9c28f88a29a77bac3055fac4891175a8d70e61d64",
+  "status": "ready"
+}

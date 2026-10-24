@@ -1,0 +1,41 @@
+{
+  "name": "motion-guard-frontend",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1",
+    "build": "tsc -b && vite build",
+    "preview": "vite preview --host 127.0.0.1",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:e2e": "playwright test",
+    "check:contract": "node scripts/check-contract.mjs",
+    "mock": "node scripts/mock.mjs",
+    "dev:mock": "node scripts/dev.mjs",
+    "dev:backend": "node scripts/dev-backend.mjs",
+    "test:backend": "node scripts/backend-smoke.mjs --start-backend --api=http://127.0.0.1:8001",
+    "test:backend:browser": "node scripts/backend-browser.mjs",
+    "test:live": "node scripts/backend-scenarios.mjs",
+    "test:real": "node scripts/real-model-smoke.mjs",
+    "test:real:browser": "node scripts/real-model-browser.mjs"
+  },
+  "dependencies": {
+    "@fontsource-variable/manrope": "^5.2.8",
+    "@phosphor-icons/react": "^2.1.10",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.56.0",
+    "@types/node": "^24.0.0",
+    "@types/react": "^19.2.0",
+    "@types/react-dom": "^19.2.0",
+    "@vitejs/plugin-react": "^5.0.0",
+    "ajv": "^8.17.1",
+    "ajv-formats": "^3.0.1",
+    "typescript": "~5.9.3",
+    "vite": "^7.1.0",
+    "vitest": "^5.0.5"
+  }
+}

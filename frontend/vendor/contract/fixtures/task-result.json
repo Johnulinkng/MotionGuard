@@ -1,0 +1,26 @@
+{
+  "schemaVersion": "0.2.0",
+  "taskId": "task_demo",
+  "status": "COMPLETED",
+  "report": "MOCK示例报告：这里只演示结果界面，未读取真实数据、未调用模型，也未向商家付款。",
+  "sources": [
+    {
+      "evidenceId": "evidence_demo",
+      "url": "https://example.invalid/mock/source",
+      "name": "MOCK示例来源（未请求）",
+      "observedAt": "2026-10-24T08:00:00.000Z",
+      "contentHash": "sha256:8888888888888888888888888888888888888888888888888888888888888888"
+    }
+  ],
+  "evidenceIds": [
+    "evidence_demo"
+  ],
+  "model": {
+    "mode": "DETERMINISTIC_SANDBOX",
+    "diagnostics": []
+  },
+  "dataMode": "SANDBOX",
+  "paymentMode": "MOCK",
+  "paidCalls": 0,
+  "learningMode": "SANDBOX_ORACLE"
+}

@@ -1,0 +1,50 @@
+{
+  "schemaVersion": "0.1.0",
+  "taskId": "task_demo",
+  "version": 5,
+  "etag": "\"task_demo:v5\"",
+  "status": "COMPLETED",
+  "goal": "比较指定供应商的交付条件，最多使用1个测试USDC购买资料。",
+  "allowedVendorIds": [
+    "vendor_alpha"
+  ],
+  "executionMode": "MOCK",
+  "authMode": "MOCK_UNAUTHENTICATED",
+  "planId": "plan_demo",
+  "planHash": "sha256:3333333333333333333333333333333333333333333333333333333333333333",
+  "authorization": {
+    "authorizationId": "auth_demo",
+    "version": 1,
+    "status": "ACTIVE",
+    "planHash": "sha256:3333333333333333333333333333333333333333333333333333333333333333",
+    "goalHash": "sha256:2222222222222222222222222222222222222222222222222222222222222222",
+    "catalogVersion": "catalog_v1",
+    "budgetAtomic": "1000000",
+    "maxPaidCalls": 3,
+    "expiresAt": "2099-01-01T00:00:00.000Z",
+    "authorizedAt": "2026-10-24T06:00:00.000Z",
+    "revokedAt": null
+  },
+  "activeMemoryVersion": "memory_m0",
+  "budget": {
+    "schemaVersion": "0.1.0",
+    "taskId": "task_demo",
+    "asset": {
+      "network": "eip155:84532",
+      "tokenAddress": "0x036cbd53842c5426634e7929541ec2318f3dcf7e",
+      "symbol": "USDC",
+      "decimals": 6
+    },
+    "limitAtomic": "1000000",
+    "settledAtomic": "10000",
+    "reservedAtomic": "0",
+    "outstandingAtomic": "0",
+    "availableAtomic": "990000",
+    "version": 1
+  },
+  "pendingReviewCount": 0,
+  "lastEventSeq": 10,
+  "createdAt": "2026-10-24T06:00:00.000Z",
+  "updatedAt": "2026-10-24T06:00:00.000Z",
+  "summary": "MOCK模拟完成；未创建真实签名或链上交易。"
+}

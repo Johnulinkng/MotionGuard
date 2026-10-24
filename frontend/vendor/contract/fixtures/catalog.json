@@ -1,0 +1,42 @@
+{
+  "schemaVersion": "0.1.0",
+  "catalogVersion": "catalog_v1",
+  "asset": {
+    "network": "eip155:84532",
+    "tokenAddress": "0x036cbd53842c5426634e7929541ec2318f3dcf7e",
+    "symbol": "USDC",
+    "decimals": 6
+  },
+  "vendors": [
+    {
+      "vendorId": "vendor_alpha",
+      "name": "演示商家 alpha",
+      "payTo": "0x1111111111111111111111111111111111111111",
+      "toolId": "tool_alpha",
+      "routeId": "route_alpha_report",
+      "resourceKind": "DOCUMENT",
+      "description": "可信配置中的演示资料服务；MOCK不请求远程服务。",
+      "toolDescriptorHash": "sha256:1111111111111111111111111111111111111111111111111111111111111111"
+    },
+    {
+      "vendorId": "vendor_beta",
+      "name": "演示商家 beta",
+      "payTo": "0x2222222222222222222222222222222222222222",
+      "toolId": "tool_beta",
+      "routeId": "route_beta_report",
+      "resourceKind": "DOCUMENT",
+      "description": "可信配置中的演示资料服务；MOCK不请求远程服务。",
+      "toolDescriptorHash": "sha256:2222222222222222222222222222222222222222222222222222222222222222"
+    },
+    {
+      "vendorId": "vendor_gamma",
+      "name": "演示商家 gamma",
+      "payTo": "0x3333333333333333333333333333333333333333",
+      "toolId": "tool_gamma",
+      "routeId": "route_gamma_report",
+      "resourceKind": "DOCUMENT",
+      "description": "可信配置中的演示资料服务；MOCK不请求远程服务。",
+      "toolDescriptorHash": "sha256:3333333333333333333333333333333333333333333333333333333333333333"
+    }
+  ]
+}

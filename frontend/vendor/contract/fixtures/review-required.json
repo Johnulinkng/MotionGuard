@@ -1,0 +1,22 @@
+{
+  "schemaVersion": "0.1.0",
+  "reviewId": "review_demo",
+  "taskId": "task_demo",
+  "paymentId": "payment_demo",
+  "version": 1,
+  "etag": "\"review_demo:v1\"",
+  "status": "PENDING",
+  "snapshotHash": "sha256:6666666666666666666666666666666666666666666666666666666666666666",
+  "requestHash": "sha256:4444444444444444444444444444444444444444444444444444444444444444",
+  "offerHash": "sha256:5555555555555555555555555555555555555555555555555555555555555555",
+  "planHash": "sha256:3333333333333333333333333333333333333333333333333333333333333333",
+  "authorizationVersion": 1,
+  "reasonCode": "SEMANTIC_UNCERTAINTY",
+  "summary": "硬权限通过，但需要用户确认这笔计划内采购的必要性；MOCK。",
+  "amountAtomic": "10000",
+  "payTo": "0x1111111111111111111111111111111111111111",
+  "vendorId": "vendor_alpha",
+  "expiresAt": "2099-01-01T00:00:00.000Z",
+  "createdAt": "2026-10-24T06:00:00.000Z",
+  "resolvedAt": null
+}

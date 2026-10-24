@@ -1,0 +1,4 @@
+* text=auto eol=lf
+
+# Published contract hashes cover exact bytes; never normalize this owner bundle.
+/vendor/contract/** -text

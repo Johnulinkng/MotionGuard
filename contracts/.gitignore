@@ -1,0 +1,15 @@
+node_modules/
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+*.log
+*.tmp
+.build-*.tmp.mjs
+coverage/
+.cache/
+outputs/
+.DS_Store

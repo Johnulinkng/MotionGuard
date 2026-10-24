@@ -1,0 +1,1340 @@
+{
+  "startedAt": "2026-10-24T08:31:58.358Z",
+  "timezone": "Asia/Shanghai",
+  "apiOrigin": "http://127.0.0.1:4011",
+  "contractVersion": "0.2.0",
+  "contractSha256": "d470a5e6d57427b37e3fc3db2b845c8a2cf295a586f5a7766742fbc241f58235",
+  "bundleSha256": "0410c9d200b8fbaf68ac6ec9c28f88a29a77bac3055fac4891175a8d70e61d64",
+  "verifiedFiles": 16,
+  "scope": "public-api-real-model-free-source-verification",
+  "requiredRoles": [
+    "worker",
+    "threat",
+    "consistency"
+  ],
+  "expectedModel": null,
+  "expectedSourceHosts": [
+    "coins.llama.fi",
+    "api.llama.fi",
+    "sepolia.base.org"
+  ],
+  "mutations": 0,
+  "modelCallsIssuedByVerifier": 0,
+  "noScenarioControlHeader": true,
+  "realChainPaymentVerified": false,
+  "pass": true,
+  "failures": [],
+  "requests": [
+    {
+      "method": "GET",
+      "path": "/catalog",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/tasks/task_4a343fa12f4240ee8b6c67e6d8d6c14e",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/tasks/task_4a343fa12f4240ee8b6c67e6d8d6c14e",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/tasks/task_4a343fa12f4240ee8b6c67e6d8d6c14e/result",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/tasks/task_4a343fa12f4240ee8b6c67e6d8d6c14e/budget",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/tasks/task_4a343fa12f4240ee8b6c67e6d8d6c14e/payments",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/tasks/task_4a343fa12f4240ee8b6c67e6d8d6c14e/reviews",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/tasks/task_4a343fa12f4240ee8b6c67e6d8d6c14e/lessons",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/tasks/task_4a343fa12f4240ee8b6c67e6d8d6c14e/evidence/evidence_107aed26f1aa41138e77c4e7",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/tasks/task_4a343fa12f4240ee8b6c67e6d8d6c14e/evidence/evidence_28167f51e13041569737991a",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/tasks/task_4a343fa12f4240ee8b6c67e6d8d6c14e/evidence/evidence_051806c14b034aaba4caf170",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/tasks/task_4a343fa12f4240ee8b6c67e6d8d6c14e/evidence/evidence_edf730e6f0eb4e1eb8309d3f",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/tasks/task_4a343fa12f4240ee8b6c67e6d8d6c14e/evidence/evidence_ac20abaed93a47be838aab1b",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/tasks/task_4a343fa12f4240ee8b6c67e6d8d6c14e/evidence/evidence_77bba409c56a4f1bba44c3ad",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/tasks/task_4a343fa12f4240ee8b6c67e6d8d6c14e/evidence/evidence_664f2b5f38134c17b2c5a7b9",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/tasks/task_4a343fa12f4240ee8b6c67e6d8d6c14e/evidence/evidence_a2cb5be2e80a4c00903a2e0d",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/tasks/task_4a343fa12f4240ee8b6c67e6d8d6c14e/evidence/evidence_5436e2b9eedf49519fadf1bb",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/tasks/task_4a343fa12f4240ee8b6c67e6d8d6c14e/evidence/evidence_8370a11459944bd7adccb019",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/tasks/task_4a343fa12f4240ee8b6c67e6d8d6c14e/evidence/evidence_1ffa1262650c4d81b9dc343a",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/tasks/task_4a343fa12f4240ee8b6c67e6d8d6c14e/evidence/evidence_8d500e5ab26849d9aee49cfa",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/tasks/task_4a343fa12f4240ee8b6c67e6d8d6c14e/evidence/evidence_65e5617949df43719a516365",
+      "status": 200
+    }
+  ],
+  "events": [
+    {
+      "schemaVersion": "0.1.0",
+      "eventId": "task_4a343fa12f4240ee8b6c67e6d8d6c14e:1",
+      "taskId": "task_4a343fa12f4240ee8b6c67e6d8d6c14e",
+      "seq": 1,
+      "type": "task.created",
+      "occurredAt": "2026-10-24T08:28:54.536Z",
+      "aggregateVersion": 1,
+      "executionMode": "MOCK",
+      "summary": "任务已创建，尚未读取外部内容。",
+      "resourceId": "task_4a343fa12f4240ee8b6c67e6d8d6c14e",
+      "resourceType": "TASK"
+    },
+    {
+      "schemaVersion": "0.1.0",
+      "eventId": "task_4a343fa12f4240ee8b6c67e6d8d6c14e:2",
+      "taskId": "task_4a343fa12f4240ee8b6c67e6d8d6c14e",
+      "seq": 2,
+      "type": "plan.planning",
+      "occurredAt": "2026-10-24T08:28:54.574Z",
+      "aggregateVersion": 2,
+      "executionMode": "MOCK",
+      "summary": "仅从用户目标和可信目录生成资源计划。",
+      "resourceId": "task_4a343fa12f4240ee8b6c67e6d8d6c14e",
+      "resourceType": "TASK"
+    },
+    {
+      "schemaVersion": "0.1.0",
+      "eventId": "task_4a343fa12f4240ee8b6c67e6d8d6c14e:3",
+      "taskId": "task_4a343fa12f4240ee8b6c67e6d8d6c14e",
+      "seq": 3,
+      "type": "plan.ready",
+      "occurredAt": "2026-10-24T08:28:54.578Z",
+      "aggregateVersion": 3,
+      "executionMode": "MOCK",
+      "summary": "资源计划已生成，等待用户冻结。",
+      "resourceId": "plan_78267c9e84df473787893a8c",
+      "resourceType": "PLAN"
+    },
+    {
+      "schemaVersion": "0.1.0",
+      "eventId": "task_4a343fa12f4240ee8b6c67e6d8d6c14e:4",
+      "taskId": "task_4a343fa12f4240ee8b6c67e6d8d6c14e",
+      "seq": 4,
+      "type": "authorization.frozen",
+      "occurredAt": "2026-10-24T08:28:55.205Z",
+      "aggregateVersion": 4,
+      "executionMode": "MOCK",
+      "summary": "授权已冻结，后续内容不能扩展商家、用途或预算。",
+      "resourceId": "auth_2fbae266bef54ddca558ee7c939da706",
+      "resourceType": "AUTHORIZATION"
+    },
+    {
+      "schemaVersion": "0.1.0",
+      "eventId": "task_4a343fa12f4240ee8b6c67e6d8d6c14e:5",
+      "taskId": "task_4a343fa12f4240ee8b6c67e6d8d6c14e",
+      "seq": 5,
+      "type": "run.started",
+      "occurredAt": "2026-10-24T08:28:55.344Z",
+      "aggregateVersion": 5,
+      "executionMode": "MOCK",
+      "summary": "开始读取外部资料；所有支付必须通过冻结计划和签名前检查。",
+      "resourceId": "task_4a343fa12f4240ee8b6c67e6d8d6c14e",
+      "resourceType": "TASK"
+    },
+    {
+      "schemaVersion": "0.1.0",
+      "eventId": "task_4a343fa12f4240ee8b6c67e6d8d6c14e:6",
+      "taskId": "task_4a343fa12f4240ee8b6c67e6d8d6c14e",
+      "seq": 6,
+      "type": "task.updated",
+      "occurredAt": "2026-10-24T08:28:55.352Z",
+      "aggregateVersion": 6,
+      "executionMode": "MOCK",
+      "summary": "{\"kind\":\"ROLE_TRACE\",\"role\":\"observe\",\"status\":\"STARTED\"}",
+      "resourceId": "task_4a343fa12f4240ee8b6c67e6d8d6c14e",
+      "resourceType": "TASK"
+    },
+    {
+      "schemaVersion": "0.1.0",
+      "eventId": "task_4a343fa12f4240ee8b6c67e6d8d6c14e:7",
+      "taskId": "task_4a343fa12f4240ee8b6c67e6d8d6c14e",
+      "seq": 7,
+      "type": "task.updated",
+      "occurredAt": "2026-10-24T08:29:00.541Z",
+      "aggregateVersion": 7,
+      "executionMode": "MOCK",
+      "summary": "{\"kind\":\"SOURCE_READ\",\"status\":\"SUCCEEDED\",\"vendorId\":\"vendor_llama_tvl\",\"source\":\"https://api.llama.fi/v2/chains\",\"evidenceId\":\"evidence_051806c14b034aaba4caf170\",\"observedAt\":\"2026-10-24T08:29:00.525Z\"}",
+      "resourceId": "task_4a343fa12f4240ee8b6c67e6d8d6c14e",
+      "resourceType": "TASK"
+    },
+    {
+      "schemaVersion": "0.1.0",
+      "eventId": "task_4a343fa12f4240ee8b6c67e6d8d6c14e:8",
+      "taskId": "task_4a343fa12f4240ee8b6c67e6d8d6c14e",
+      "seq": 8,
+      "type": "task.updated",
+      "occurredAt": "2026-10-24T08:29:02.729Z",
+      "aggregateVersion": 8,
+      "executionMode": "MOCK",
+      "summary": "{\"kind\":\"SOURCE_READ\",\"status\":\"SUCCEEDED\",\"vendorId\":\"vendor_base_public\",\"source\":\"https://sepolia.base.org/\",\"evidenceId\":\"evidence_edf730e6f0eb4e1eb8309d3f\",\"observedAt\":\"2026-10-24T08:29:02.714Z\"}",
+      "resourceId": "task_4a343fa12f4240ee8b6c67e6d8d6c14e",
+      "resourceType": "TASK"
+    },
+    {
+      "schemaVersion": "0.1.0",
+      "eventId": "task_4a343fa12f4240ee8b6c67e6d8d6c14e:9",
+      "taskId": "task_4a343fa12f4240ee8b6c67e6d8d6c14e",
+      "seq": 9,
+      "type": "task.updated",
+      "occurredAt": "2026-10-24T08:29:04.135Z",
+      "aggregateVersion": 9,
+      "executionMode": "MOCK",
+      "summary": "{\"kind\":\"SOURCE_READ\",\"status\":\"SUCCEEDED\",\"vendorId\":\"vendor_llama_price\",\"source\":\"https://coins.llama.fi/prices/current/coingecko:ethereum\",\"evidenceId\":\"evidence_ac20abaed93a47be838aab1b\",\"observedAt\":\"2026-10-24T08:29:04.130Z\"}",
+      "resourceId": "task_4a343fa12f4240ee8b6c67e6d8d6c14e",
+      "resourceType": "TASK"
+    },
+    {
+      "schemaVersion": "0.1.0",
+      "eventId": "task_4a343fa12f4240ee8b6c67e6d8d6c14e:10",
+      "taskId": "task_4a343fa12f4240ee8b6c67e6d8d6c14e",
+      "seq": 10,
+      "type": "task.updated",
+      "occurredAt": "2026-10-24T08:29:04.138Z",
+      "aggregateVersion": 10,
+      "executionMode": "MOCK",
+      "summary": "{\"kind\":\"ROLE_TRACE\",\"role\":\"worker\",\"status\":\"STARTED\"}",
+      "resourceId": "task_4a343fa12f4240ee8b6c67e6d8d6c14e",
+      "resourceType": "TASK"
+    },
+    {
+      "schemaVersion": "0.1.0",
+      "eventId": "task_4a343fa12f4240ee8b6c67e6d8d6c14e:11",
+      "taskId": "task_4a343fa12f4240ee8b6c67e6d8d6c14e",
+      "seq": 11,
+      "type": "task.updated",
+      "occurredAt": "2026-10-24T08:29:04.814Z",
+      "aggregateVersion": 11,
+      "executionMode": "MOCK",
+      "summary": "{\"kind\":\"MODEL_CALL\",\"role\":\"worker\",\"status\":\"SUCCEEDED\",\"phase\":\"select\",\"actualModel\":\"deepseek-flash\",\"latencyMs\":681,\"httpStatus\":200,\"usage\":{\"promptTokens\":1019,\"completionTokens\":26,\"totalTokens\":1045,\"promptCacheHitTokens\":0,\"promptCacheMissTokens\":1019}}",
+      "resourceId": "task_4a343fa12f4240ee8b6c67e6d8d6c14e",
+      "resourceType": "TASK"
+    },
+    {
+      "schemaVersion": "0.1.0",
+      "eventId": "task_4a343fa12f4240ee8b6c67e6d8d6c14e:12",
+      "taskId": "task_4a343fa12f4240ee8b6c67e6d8d6c14e",
+      "seq": 12,
+      "type": "task.updated",
+      "occurredAt": "2026-10-24T08:29:04.830Z",
+      "aggregateVersion": 12,
+      "executionMode": "MOCK",
+      "summary": "{\"kind\":\"ROLE_TRACE\",\"role\":\"threat\",\"status\":\"STARTED\"}",
+      "resourceId": "task_4a343fa12f4240ee8b6c67e6d8d6c14e",
+      "resourceType": "TASK"
+    },
+    {
+      "schemaVersion": "0.1.0",
+      "eventId": "task_4a343fa12f4240ee8b6c67e6d8d6c14e:13",
+      "taskId": "task_4a343fa12f4240ee8b6c67e6d8d6c14e",
+      "seq": 13,
+      "type": "task.updated",
+      "occurredAt": "2026-10-24T08:29:04.832Z",
+      "aggregateVersion": 13,
+      "executionMode": "MOCK",
+      "summary": "{\"kind\":\"ROLE_TRACE\",\"role\":\"consistency\",\"status\":\"STARTED\"}",
+      "resourceId": "task_4a343fa12f4240ee8b6c67e6d8d6c14e",
+      "resourceType": "TASK"
+    },
+    {
+      "schemaVersion": "0.1.0",
+      "eventId": "task_4a343fa12f4240ee8b6c67e6d8d6c14e:14",
+      "taskId": "task_4a343fa12f4240ee8b6c67e6d8d6c14e",
+      "seq": 14,
+      "type": "task.updated",
+      "occurredAt": "2026-10-24T08:29:04.833Z",
+      "aggregateVersion": 14,
+      "executionMode": "MOCK",
+      "summary": "{\"kind\":\"ROLE_TRACE\",\"role\":\"threat\",\"status\":\"STARTED\"}",
+      "resourceId": "task_4a343fa12f4240ee8b6c67e6d8d6c14e",
+      "resourceType": "TASK"
+    },
+    {
+      "schemaVersion": "0.1.0",
+      "eventId": "task_4a343fa12f4240ee8b6c67e6d8d6c14e:15",
+      "taskId": "task_4a343fa12f4240ee8b6c67e6d8d6c14e",
+      "seq": 15,
+      "type": "task.updated",
+      "occurredAt": "2026-10-24T08:29:04.835Z",
+      "aggregateVersion": 15,
+      "executionMode": "MOCK",
+      "summary": "{\"kind\":\"ROLE_TRACE\",\"role\":\"consistency\",\"status\":\"STARTED\"}",
+      "resourceId": "task_4a343fa12f4240ee8b6c67e6d8d6c14e",
+      "resourceType": "TASK"
+    },
+    {
+      "schemaVersion": "0.1.0",
+      "eventId": "task_4a343fa12f4240ee8b6c67e6d8d6c14e:16",
+      "taskId": "task_4a343fa12f4240ee8b6c67e6d8d6c14e",
+      "seq": 16,
+      "type": "task.updated",
+      "occurredAt": "2026-10-24T08:29:04.836Z",
+      "aggregateVersion": 16,
+      "executionMode": "MOCK",
+      "summary": "{\"kind\":\"ROLE_TRACE\",\"role\":\"threat\",\"status\":\"STARTED\"}",
+      "resourceId": "task_4a343fa12f4240ee8b6c67e6d8d6c14e",
+      "resourceType": "TASK"
+    },
+    {
+      "schemaVersion": "0.1.0",
+      "eventId": "task_4a343fa12f4240ee8b6c67e6d8d6c14e:17",
+      "taskId": "task_4a343fa12f4240ee8b6c67e6d8d6c14e",
+      "seq": 17,
+      "type": "task.updated",
+      "occurredAt": "2026-10-24T08:29:04.838Z",
+      "aggregateVersion": 17,
+      "executionMode": "MOCK",
+      "summary": "{\"kind\":\"ROLE_TRACE\",\"role\":\"consistency\",\"status\":\"STARTED\"}",
+      "resourceId": "task_4a343fa12f4240ee8b6c67e6d8d6c14e",
+      "resourceType": "TASK"
+    },
+    {
+      "schemaVersion": "0.1.0",
+      "eventId": "task_4a343fa12f4240ee8b6c67e6d8d6c14e:18",
+      "taskId": "task_4a343fa12f4240ee8b6c67e6d8d6c14e",
+      "seq": 18,
+      "type": "task.updated",
+      "occurredAt": "2026-10-24T08:29:05.627Z",
+      "aggregateVersion": 18,
+      "executionMode": "MOCK",
+      "summary": "{\"kind\":\"MODEL_CALL\",\"role\":\"consistency\",\"status\":\"SUCCEEDED\",\"actualModel\":\"deepseek-flash\",\"latencyMs\":799,\"httpStatus\":200,\"usage\":{\"promptTokens\":1132,\"completionTokens\":15,\"totalTokens\":1147,\"promptCacheHitTokens\":0,\"promptCacheMissTokens\":1132}}",
+      "resourceId": "task_4a343fa12f4240ee8b6c67e6d8d6c14e",
+      "resourceType": "TASK"
+    },
+    {
+      "schemaVersion": "0.1.0",
+      "eventId": "task_4a343fa12f4240ee8b6c67e6d8d6c14e:19",
+      "taskId": "task_4a343fa12f4240ee8b6c67e6d8d6c14e",
+      "seq": 19,
+      "type": "task.updated",
+      "occurredAt": "2026-10-24T08:29:05.753Z",
+      "aggregateVersion": 19,
+      "executionMode": "MOCK",
+      "summary": "{\"kind\":\"MODEL_CALL\",\"role\":\"threat\",\"status\":\"SUCCEEDED\",\"actualModel\":\"deepseek-flash\",\"latencyMs\":925,\"httpStatus\":200,\"usage\":{\"promptTokens\":483,\"completionTokens\":15,\"totalTokens\":498,\"promptCacheHitTokens\":128,\"promptCacheMissTokens\":355}}",
+      "resourceId": "task_4a343fa12f4240ee8b6c67e6d8d6c14e",
+      "resourceType": "TASK"
+    },
+    {
+      "schemaVersion": "0.1.0",
+      "eventId": "task_4a343fa12f4240ee8b6c67e6d8d6c14e:20",
+      "taskId": "task_4a343fa12f4240ee8b6c67e6d8d6c14e",
+      "seq": 20,
+      "type": "task.updated",
+      "occurredAt": "2026-10-24T08:29:05.756Z",
+      "aggregateVersion": 20,
+      "executionMode": "MOCK",
+      "summary": "{\"kind\":\"MODEL_CALL\",\"role\":\"threat\",\"status\":\"SUCCEEDED\",\"actualModel\":\"deepseek-flash\",\"latencyMs\":926,\"httpStatus\":200,\"usage\":{\"promptTokens\":528,\"completionTokens\":15,\"totalTokens\":543,\"promptCacheHitTokens\":128,\"promptCacheMissTokens\":400}}",
+      "resourceId": "task_4a343fa12f4240ee8b6c67e6d8d6c14e",
+      "resourceType": "TASK"
+    },
+    {
+      "schemaVersion": "0.1.0",
+      "eventId": "task_4a343fa12f4240ee8b6c67e6d8d6c14e:21",
+      "taskId": "task_4a343fa12f4240ee8b6c67e6d8d6c14e",
+      "seq": 21,
+      "type": "task.updated",
+      "occurredAt": "2026-10-24T08:29:05.787Z",
+      "aggregateVersion": 21,
+      "executionMode": "MOCK",
+      "summary": "{\"kind\":\"MODEL_CALL\",\"role\":\"consistency\",\"status\":\"SUCCEEDED\",\"actualModel\":\"deepseek-flash\",\"latencyMs\":959,\"httpStatus\":200,\"usage\":{\"promptTokens\":1124,\"completionTokens\":15,\"totalTokens\":1139,\"promptCacheHitTokens\":0,\"promptCacheMissTokens\":1124}}",
+      "resourceId": "task_4a343fa12f4240ee8b6c67e6d8d6c14e",
+      "resourceType": "TASK"
+    },
+    {
+      "schemaVersion": "0.1.0",
+      "eventId": "task_4a343fa12f4240ee8b6c67e6d8d6c14e:22",
+      "taskId": "task_4a343fa12f4240ee8b6c67e6d8d6c14e",
+      "seq": 22,
+      "type": "task.updated",
+      "occurredAt": "2026-10-24T08:29:05.789Z",
+      "aggregateVersion": 22,
+      "executionMode": "MOCK",
+      "summary": "{\"kind\":\"MODEL_CALL\",\"role\":\"threat\",\"status\":\"SUCCEEDED\",\"actualModel\":\"deepseek-flash\",\"latencyMs\":961,\"httpStatus\":200,\"usage\":{\"promptTokens\":552,\"completionTokens\":15,\"totalTokens\":567,\"promptCacheHitTokens\":128,\"promptCacheMissTokens\":424}}",
+      "resourceId": "task_4a343fa12f4240ee8b6c67e6d8d6c14e",
+      "resourceType": "TASK"
+    },
+    {
+      "schemaVersion": "0.1.0",
+      "eventId": "task_4a343fa12f4240ee8b6c67e6d8d6c14e:23",
+      "taskId": "task_4a343fa12f4240ee8b6c67e6d8d6c14e",
+      "seq": 23,
+      "type": "task.updated",
+      "occurredAt": "2026-10-24T08:29:05.854Z",
+      "aggregateVersion": 23,
+      "executionMode": "MOCK",
+      "summary": "{\"kind\":\"MODEL_CALL\",\"role\":\"consistency\",\"status\":\"SUCCEEDED\",\"actualModel\":\"deepseek-flash\",\"latencyMs\":1028,\"httpStatus\":200,\"usage\":{\"promptTokens\":1113,\"completionTokens\":15,\"totalTokens\":1128,\"promptCacheHitTokens\":0,\"promptCacheMissTokens\":1113}}",
+      "resourceId": "task_4a343fa12f4240ee8b6c67e6d8d6c14e",
+      "resourceType": "TASK"
+    },
+    {
+      "schemaVersion": "0.1.0",
+      "eventId": "task_4a343fa12f4240ee8b6c67e6d8d6c14e:24",
+      "taskId": "task_4a343fa12f4240ee8b6c67e6d8d6c14e",
+      "seq": 24,
+      "type": "task.updated",
+      "occurredAt": "2026-10-24T08:29:05.858Z",
+      "aggregateVersion": 24,
+      "executionMode": "MOCK",
+      "summary": "{\"kind\":\"ROLE_TRACE\",\"role\":\"worker\",\"status\":\"STARTED\"}",
+      "resourceId": "task_4a343fa12f4240ee8b6c67e6d8d6c14e",
+      "resourceType": "TASK"
+    },
+    {
+      "schemaVersion": "0.1.0",
+      "eventId": "task_4a343fa12f4240ee8b6c67e6d8d6c14e:25",
+      "taskId": "task_4a343fa12f4240ee8b6c67e6d8d6c14e",
+      "seq": 25,
+      "type": "task.updated",
+      "occurredAt": "2026-10-24T08:29:09.824Z",
+      "aggregateVersion": 25,
+      "executionMode": "MOCK",
+      "summary": "{\"kind\":\"MODEL_CALL\",\"role\":\"worker\",\"status\":\"SUCCEEDED\",\"phase\":\"report\",\"actualModel\":\"deepseek-flash\",\"latencyMs\":3969,\"httpStatus\":200,\"usage\":{\"promptTokens\":1278,\"completionTokens\":662,\"totalTokens\":1940,\"promptCacheHitTokens\":0,\"promptCacheMissTokens\":1278}}",
+      "resourceId": "task_4a343fa12f4240ee8b6c67e6d8d6c14e",
+      "resourceType": "TASK"
+    },
+    {
+      "schemaVersion": "0.1.0",
+      "eventId": "task_4a343fa12f4240ee8b6c67e6d8d6c14e:26",
+      "taskId": "task_4a343fa12f4240ee8b6c67e6d8d6c14e",
+      "seq": 26,
+      "type": "task.updated",
+      "occurredAt": "2026-10-24T08:29:09.829Z",
+      "aggregateVersion": 26,
+      "executionMode": "MOCK",
+      "summary": "{\"kind\":\"REPORT_READY\",\"evidenceId\":\"evidence_65e5617949df43719a516365\",\"sourceEvidenceIds\":[\"evidence_edf730e6f0eb4e1eb8309d3f\",\"evidence_ac20abaed93a47be838aab1b\",\"evidence_051806c14b034aaba4caf170\"]}",
+      "resourceId": "task_4a343fa12f4240ee8b6c67e6d8d6c14e",
+      "resourceType": "TASK"
+    },
+    {
+      "schemaVersion": "0.1.0",
+      "eventId": "task_4a343fa12f4240ee8b6c67e6d8d6c14e:27",
+      "taskId": "task_4a343fa12f4240ee8b6c67e6d8d6c14e",
+      "seq": 27,
+      "type": "task.completed",
+      "occurredAt": "2026-10-24T08:29:09.876Z",
+      "aggregateVersion": 27,
+      "executionMode": "MOCK",
+      "summary": "观测时间说明：本报告基于 2026-10-24T08:29:05.854Z 前后的三次公开数据抓取，各数据源的实际观测时间与提供方时间戳分别标注如下。所有数值均为单次快照，不能据此推断趋势。\n\n1) ETH 美元现价：DefiLlama Coins API 返回 ETH/USD 价格约为 2370.64 美元，置信度 0.99；抓取观测时间为 2026-10-24T08:29:04.130Z，提供方数据时间戳为 2026-10-24T08:24:42.000Z [2]。这是单点报价，不代表涨跌方向。\n\n2) TVL（主网）：DefiLlama chains API 显示 Ethereum 主网（chainId 1）TVL 约为 492.46 亿美元，Base 主网（chainId 8453）TVL 约为 60.82 亿美元 [3]。需注意该接口未提供快照时间戳（Provider as-of 为 NOT_PROVIDED），上述观测时间 2026-10-24T08:29:00.525Z 仅为抓取时间，并非数据本身的时点，因此这两个 TVL 数值的准确时点存在不确定性 [3]。\n\n3) B",
+      "resourceId": "task_4a343fa12f4240ee8b6c67e6d8d6c14e",
+      "resourceType": "TASK"
+    }
+  ],
+  "evidence": [
+    {
+      "schemaVersion": "0.1.0",
+      "evidenceId": "evidence_107aed26f1aa41138e77c4e7",
+      "taskId": "task_4a343fa12f4240ee8b6c67e6d8d6c14e",
+      "sourceKind": "USER_INPUT",
+      "trust": "USER_TRUSTED",
+      "parentIds": [],
+      "parentClosureHash": "sha256:4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "contentHash": "sha256:ebcddd23957e08b39e44b3c4a64c716b4934f5ec6218dd1374412bb419216aeb",
+      "excerpt": "基于允许的三个真实数据源，整理 ETH 美元现价、Ethereum 与 Base 的 TVL、Base Sepolia 测试网最新区块概况。注明观测时间和来源，区分测试网与主网，不根据单次快照推断趋势；无法获得的信息明确说明。",
+      "recordedAt": "2026-10-24T08:28:55.350Z"
+    },
+    {
+      "schemaVersion": "0.1.0",
+      "evidenceId": "evidence_28167f51e13041569737991a",
+      "taskId": "task_4a343fa12f4240ee8b6c67e6d8d6c14e",
+      "sourceKind": "TRUSTED_CATALOG",
+      "trust": "HOST_OBSERVED",
+      "parentIds": [],
+      "parentClosureHash": "sha256:4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "contentHash": "sha256:85592a649f4075691f17a17f738c4413fac466417e757c0b0f7a78f08353159b",
+      "excerpt": "{\"schemaVersion\":\"0.1.0\",\"catalogVersion\":\"public_eth_research_20261024_v1\",\"asset\":{\"network\":\"eip155:84532\",\"tokenAddress\":\"0x036cbd53842c5426634e7929541ec2318f3dcf7e\",\"symbol\":\"USDC\",\"decimals\":6},\"vendors\":[{\"vendorId\":\"vendor_base_public\",\"name\":\"Base Sepolia 官方公共链状态\",\"payTo\":null,\"toolId\":\"tool_base_sepolia\",\"routeId\":\"route_base_sepolia\",\"resourceKind\":\"MARKET_DATA\",\"description\":\"免费只读 Base 官方测试网 RPC：验证 chainId 84532，读取最新区块的高度、时间、gas 使用与 base fee；它是测试网数据，不能当 Ethereum 主网活动或付费付款证据。\",\"toolDescriptorHash\":\"sha256:45a68cfdc845f8957ead7aac06dda2b1039bdcee587bcab71ca485993925fd38\",\"source\":{\"name\":\"Base official public RPC\",\"url\":\"https://sepolia.base.org/\",\"docsUrl\":\"https://docs.base.org/get-started/connect-to-base\"},\"billing\":{\"kind\":\"FREE_PUBLIC_DATA\",\"amountAtomic\":\"0\",\"requiresPayment\":false}},{\"vendorId\":\"vendor_llama_price\",\"name\":\"DefiLlama ETH/USD 公开报价\",\"payTo\":null,\"toolId\":\"tool_eth_price\",\"routeId\":\"route_eth_price\",\"resourceKind\":\"MARKET_DATA\",\"description\":\"免费无需密钥的 DefiLlama Coins API：读取 coingecko:ethereum 的 ETH/USD 报价与供应方时间戳；它是外部聚合参考数据，不能当成交价或付款确认。\",\"toolDescriptorHash\":\"sha256:61451ce78e76d02823be2ec930d720c0f0de30afe41aa14907c90334a334d10c\",\"source\":{\"name\":\"DefiL",
+      "recordedAt": "2026-10-24T08:28:55.351Z"
+    },
+    {
+      "schemaVersion": "0.1.0",
+      "evidenceId": "evidence_051806c14b034aaba4caf170",
+      "taskId": "task_4a343fa12f4240ee8b6c67e6d8d6c14e",
+      "sourceKind": "TOOL_RESPONSE",
+      "trust": "EXTERNAL_UNTRUSTED",
+      "parentIds": [
+        "evidence_107aed26f1aa41138e77c4e7",
+        "evidence_28167f51e13041569737991a"
+      ],
+      "parentClosureHash": "sha256:fdeff29439cdd99b80fd935e9a9031a986ab0d3b14f3549e91340167d133bbc4",
+      "contentHash": "sha256:9a380f61f6bb48c5205a8a9581b7669ff872c4b7a039b7c2762dc9d975c765ab",
+      "excerpt": "DefiLlama Ethereum / Base TVL\nSource: DefiLlama chains API — https://api.llama.fi/v2/chains\nObserved at: 2026-10-24T08:29:00.525Z\nProvider as-of: NOT_PROVIDED\nBilling: FREE_PUBLIC_DATA; no payment authorization, signature or settlement\n{\"metric\":\"TVL_USD\",\"chains\":[{\"name\":\"Ethereum\",\"chainId\":1,\"tvlUsd\":49245687984.631546,\"tokenSymbol\":\"ETH\"},{\"name\":\"Base\",\"chainId\":8453,\"tvlUsd\":6082076950.16715,\"tokenSymbol\":null}],\"sourceTimestamp\":null,\"asOfNotice\":\"Provider does not include a snapshot timestamp. observedAt is retrieval time, not provider as-of time.\"}",
+      "recordedAt": "2026-10-24T08:29:00.528Z"
+    },
+    {
+      "schemaVersion": "0.1.0",
+      "evidenceId": "evidence_edf730e6f0eb4e1eb8309d3f",
+      "taskId": "task_4a343fa12f4240ee8b6c67e6d8d6c14e",
+      "sourceKind": "TOOL_RESPONSE",
+      "trust": "EXTERNAL_UNTRUSTED",
+      "parentIds": [
+        "evidence_107aed26f1aa41138e77c4e7",
+        "evidence_28167f51e13041569737991a"
+      ],
+      "parentClosureHash": "sha256:fdeff29439cdd99b80fd935e9a9031a986ab0d3b14f3549e91340167d133bbc4",
+      "contentHash": "sha256:9843c3855f2b1eaff2b53e3a640c57f4fa1e294a300c42fbc5a7d7ac7cb5c106",
+      "excerpt": "Base Sepolia 官方公共链状态\nSource: Base official public RPC — https://sepolia.base.org/\nObserved at: 2026-10-24T08:29:02.714Z\nProvider as-of: 2026-10-24T08:28:57.000Z\nBilling: FREE_PUBLIC_DATA; no payment authorization, signature or settlement\n{\"network\":\"Base Sepolia testnet\",\"chainId\":84532,\"blockNumber\":\"49543345\",\"blockHash\":\"0xf917592d06f8adc29be17d6820e8479915977b535738954be725735a9d1abf48\",\"blockTimestamp\":\"2026-10-24T08:28:57.000Z\",\"gasUsed\":\"797431\",\"gasLimit\":\"120000000\",\"baseFeePerGasWei\":\"5000000\",\"baseFeeGwei\":\"0.005\",\"transactionCount\":14}",
+      "recordedAt": "2026-10-24T08:29:02.716Z"
+    },
+    {
+      "schemaVersion": "0.1.0",
+      "evidenceId": "evidence_ac20abaed93a47be838aab1b",
+      "taskId": "task_4a343fa12f4240ee8b6c67e6d8d6c14e",
+      "sourceKind": "TOOL_RESPONSE",
+      "trust": "EXTERNAL_UNTRUSTED",
+      "parentIds": [
+        "evidence_107aed26f1aa41138e77c4e7",
+        "evidence_28167f51e13041569737991a"
+      ],
+      "parentClosureHash": "sha256:fdeff29439cdd99b80fd935e9a9031a986ab0d3b14f3549e91340167d133bbc4",
+      "contentHash": "sha256:0a7136f130523e8b2f1334ead73417876cde2d435a9a92af09cb49950e7132dc",
+      "excerpt": "DefiLlama ETH/USD 公开报价\nSource: DefiLlama Coins API — https://coins.llama.fi/prices/current/coingecko:ethereum\nObserved at: 2026-10-24T08:29:04.130Z\nProvider as-of: 2026-10-24T08:24:42.000Z\nBilling: FREE_PUBLIC_DATA; no payment authorization, signature or settlement\n{\"asset\":\"ETH\",\"currency\":\"USD\",\"price\":2370.6449971639836,\"sourceTimestamp\":\"2026-10-24T08:24:42.000Z\",\"confidence\":0.99}",
+      "recordedAt": "2026-10-24T08:29:04.131Z"
+    },
+    {
+      "schemaVersion": "0.1.0",
+      "evidenceId": "evidence_77bba409c56a4f1bba44c3ad",
+      "taskId": "task_4a343fa12f4240ee8b6c67e6d8d6c14e",
+      "sourceKind": "MODEL_OUTPUT",
+      "trust": "MODEL_DERIVED",
+      "parentIds": [
+        "evidence_107aed26f1aa41138e77c4e7",
+        "evidence_28167f51e13041569737991a"
+      ],
+      "parentClosureHash": "sha256:fdeff29439cdd99b80fd935e9a9031a986ab0d3b14f3549e91340167d133bbc4",
+      "contentHash": "sha256:f9dc65fc46bfe11865c87ba0c22c1e0232c4216ae559fdc4c74b9c2cb8d623fb",
+      "excerpt": "{\"selectedVendorIds\":[\"vendor_base_public\",\"vendor_llama_price\",\"vendor_llama_tvl\"]}",
+      "recordedAt": "2026-10-24T08:29:04.814Z"
+    },
+    {
+      "schemaVersion": "0.1.0",
+      "evidenceId": "evidence_664f2b5f38134c17b2c5a7b9",
+      "taskId": "task_4a343fa12f4240ee8b6c67e6d8d6c14e",
+      "sourceKind": "MODEL_OUTPUT",
+      "trust": "EXTERNAL_UNTRUSTED",
+      "parentIds": [
+        "evidence_051806c14b034aaba4caf170"
+      ],
+      "parentClosureHash": "sha256:822bd058a8ccbe39d82d0350a9d48dfca2b65b3a046af70e689eefc2f294b83d",
+      "contentHash": "sha256:4e1712ed51a3929b92e85b0f82b34c813d610aba3f6e353192666c9ef4dafc62",
+      "excerpt": "{\"role\":\"THREAT\",\"verdict\":\"ALLOW\",\"reasonCode\":\"PLAN_MATCH\",\"staticVerdict\":\"ALLOW\"}",
+      "recordedAt": "2026-10-24T08:29:05.753Z"
+    },
+    {
+      "schemaVersion": "0.1.0",
+      "evidenceId": "evidence_a2cb5be2e80a4c00903a2e0d",
+      "taskId": "task_4a343fa12f4240ee8b6c67e6d8d6c14e",
+      "sourceKind": "MODEL_OUTPUT",
+      "trust": "MODEL_DERIVED",
+      "parentIds": [
+        "evidence_107aed26f1aa41138e77c4e7",
+        "evidence_28167f51e13041569737991a"
+      ],
+      "parentClosureHash": "sha256:fdeff29439cdd99b80fd935e9a9031a986ab0d3b14f3549e91340167d133bbc4",
+      "contentHash": "sha256:7158de158129f9e74c3fa69348679317fbf911a81da4f2912d90de51da34a917",
+      "excerpt": "{\"role\":\"CONSISTENCY\",\"verdict\":\"ALLOW\",\"reasonCode\":\"PLAN_MATCH\"}",
+      "recordedAt": "2026-10-24T08:29:05.753Z"
+    },
+    {
+      "schemaVersion": "0.1.0",
+      "evidenceId": "evidence_5436e2b9eedf49519fadf1bb",
+      "taskId": "task_4a343fa12f4240ee8b6c67e6d8d6c14e",
+      "sourceKind": "MODEL_OUTPUT",
+      "trust": "EXTERNAL_UNTRUSTED",
+      "parentIds": [
+        "evidence_ac20abaed93a47be838aab1b"
+      ],
+      "parentClosureHash": "sha256:40fdd7f4068187b070f3d810f347c10d2b0a57767ddb299e23d6a173e5438de2",
+      "contentHash": "sha256:4e1712ed51a3929b92e85b0f82b34c813d610aba3f6e353192666c9ef4dafc62",
+      "excerpt": "{\"role\":\"THREAT\",\"verdict\":\"ALLOW\",\"reasonCode\":\"PLAN_MATCH\",\"staticVerdict\":\"ALLOW\"}",
+      "recordedAt": "2026-10-24T08:29:05.787Z"
+    },
+    {
+      "schemaVersion": "0.1.0",
+      "evidenceId": "evidence_8370a11459944bd7adccb019",
+      "taskId": "task_4a343fa12f4240ee8b6c67e6d8d6c14e",
+      "sourceKind": "MODEL_OUTPUT",
+      "trust": "MODEL_DERIVED",
+      "parentIds": [
+        "evidence_107aed26f1aa41138e77c4e7",
+        "evidence_28167f51e13041569737991a"
+      ],
+      "parentClosureHash": "sha256:fdeff29439cdd99b80fd935e9a9031a986ab0d3b14f3549e91340167d133bbc4",
+      "contentHash": "sha256:7158de158129f9e74c3fa69348679317fbf911a81da4f2912d90de51da34a917",
+      "excerpt": "{\"role\":\"CONSISTENCY\",\"verdict\":\"ALLOW\",\"reasonCode\":\"PLAN_MATCH\"}",
+      "recordedAt": "2026-10-24T08:29:05.787Z"
+    },
+    {
+      "schemaVersion": "0.1.0",
+      "evidenceId": "evidence_1ffa1262650c4d81b9dc343a",
+      "taskId": "task_4a343fa12f4240ee8b6c67e6d8d6c14e",
+      "sourceKind": "MODEL_OUTPUT",
+      "trust": "EXTERNAL_UNTRUSTED",
+      "parentIds": [
+        "evidence_edf730e6f0eb4e1eb8309d3f"
+      ],
+      "parentClosureHash": "sha256:00037ae0501a1ec9f699df66f7ecd6f4332ac7053c2884e752e0f1f583e2a487",
+      "contentHash": "sha256:4e1712ed51a3929b92e85b0f82b34c813d610aba3f6e353192666c9ef4dafc62",
+      "excerpt": "{\"role\":\"THREAT\",\"verdict\":\"ALLOW\",\"reasonCode\":\"PLAN_MATCH\",\"staticVerdict\":\"ALLOW\"}",
+      "recordedAt": "2026-10-24T08:29:05.854Z"
+    },
+    {
+      "schemaVersion": "0.1.0",
+      "evidenceId": "evidence_8d500e5ab26849d9aee49cfa",
+      "taskId": "task_4a343fa12f4240ee8b6c67e6d8d6c14e",
+      "sourceKind": "MODEL_OUTPUT",
+      "trust": "MODEL_DERIVED",
+      "parentIds": [
+        "evidence_107aed26f1aa41138e77c4e7",
+        "evidence_28167f51e13041569737991a"
+      ],
+      "parentClosureHash": "sha256:fdeff29439cdd99b80fd935e9a9031a986ab0d3b14f3549e91340167d133bbc4",
+      "contentHash": "sha256:7158de158129f9e74c3fa69348679317fbf911a81da4f2912d90de51da34a917",
+      "excerpt": "{\"role\":\"CONSISTENCY\",\"verdict\":\"ALLOW\",\"reasonCode\":\"PLAN_MATCH\"}",
+      "recordedAt": "2026-10-24T08:29:05.854Z"
+    },
+    {
+      "schemaVersion": "0.1.0",
+      "evidenceId": "evidence_65e5617949df43719a516365",
+      "taskId": "task_4a343fa12f4240ee8b6c67e6d8d6c14e",
+      "sourceKind": "MODEL_OUTPUT",
+      "trust": "EXTERNAL_UNTRUSTED",
+      "parentIds": [
+        "evidence_edf730e6f0eb4e1eb8309d3f",
+        "evidence_ac20abaed93a47be838aab1b",
+        "evidence_051806c14b034aaba4caf170"
+      ],
+      "parentClosureHash": "sha256:4d2a969d2286e1947722998c56a578bcd0c9ee42b64126e1a397bac2959e171e",
+      "contentHash": "sha256:0b062df434a9ffa99b6e5d7e8cbccad92c32465c4308b94ceca0ada05425cf8b",
+      "excerpt": "观测时间说明：本报告基于 2026-10-24T08:29:05.854Z 前后的三次公开数据抓取，各数据源的实际观测时间与提供方时间戳分别标注如下。所有数值均为单次快照，不能据此推断趋势。\n\n1) ETH 美元现价：DefiLlama Coins API 返回 ETH/USD 价格约为 2370.64 美元，置信度 0.99；抓取观测时间为 2026-10-24T08:29:04.130Z，提供方数据时间戳为 2026-10-24T08:24:42.000Z [2]。这是单点报价，不代表涨跌方向。\n\n2) TVL（主网）：DefiLlama chains API 显示 Ethereum 主网（chainId 1）TVL 约为 492.46 亿美元，Base 主网（chainId 8453）TVL 约为 60.82 亿美元 [3]。需注意该接口未提供快照时间戳（Provider as-of 为 NOT_PROVIDED），上述观测时间 2026-10-24T08:29:00.525Z 仅为抓取时间，并非数据本身的时点，因此这两个 TVL 数值的准确时点存在不确定性 [3]。\n\n3) Base Sepolia 测试网最新区块概况：来自 Base 官方公共 RPC，网络为 Base Sepolia 测试网（chainId 84532），最新区块高度 49543345，区块哈希 0xf917592d06f8adc29be17d6820e8479915977b535738954be725735a9d1abf48，区块时间戳 2026-10-24T08:28:57.000Z，gasUsed 797431，gasLimit 120000000，baseFee 为 0.005 gwei（5000000 wei），交易数 14；抓取观测时间 2026-10-24T08:29:02.714Z [1]。\n\n测试网与主网区分：第 3 项为 Base Sepolia 测试网（chainId 84532），与第 2 项中的 Base 主网（chainId 8453）及 Ethereum 主网（chainId 1）是不同网络，测试网区块数据不能用于推断主网状态 [1][3]。\n\n缺失与不确定项：未获得 Ethereum Sepolia 或其他测试网数据；未获得 ETH 价格或 TVL 的历史序列，故无法判断趋势；TVL 数据缺少提供方时点，精确观测时刻不确定 [3]。本次仅使用免费公开数据，未发生任何支付、签名或结算 [1][2][3]。",
+      "recordedAt": "2026-10-24T08:29:09.824Z"
+    }
+  ],
+  "checks": {
+    "sseResponseValidated": true,
+    "sseReachesSnapshot": true,
+    "successfulRoles": [
+      "worker",
+      "consistency",
+      "threat"
+    ],
+    "sourceEvidenceHashesMatch": true,
+    "reportHashMatchesEvidence": true,
+    "reportCitationsBoundToSources": true,
+    "budgetConserved": true,
+    "noTaskLessonPromotion": true,
+    "zeroPaymentFreeSources": true
+  },
+  "taskId": "task_4a343fa12f4240ee8b6c67e6d8d6c14e",
+  "result": {
+    "schemaVersion": "0.2.0",
+    "taskId": "task_4a343fa12f4240ee8b6c67e6d8d6c14e",
+    "status": "COMPLETED",
+    "report": "观测时间说明：本报告基于 2026-10-24T08:29:05.854Z 前后的三次公开数据抓取，各数据源的实际观测时间与提供方时间戳分别标注如下。所有数值均为单次快照，不能据此推断趋势。\n\n1) ETH 美元现价：DefiLlama Coins API 返回 ETH/USD 价格约为 2370.64 美元，置信度 0.99；抓取观测时间为 2026-10-24T08:29:04.130Z，提供方数据时间戳为 2026-10-24T08:24:42.000Z [2]。这是单点报价，不代表涨跌方向。\n\n2) TVL（主网）：DefiLlama chains API 显示 Ethereum 主网（chainId 1）TVL 约为 492.46 亿美元，Base 主网（chainId 8453）TVL 约为 60.82 亿美元 [3]。需注意该接口未提供快照时间戳（Provider as-of 为 NOT_PROVIDED），上述观测时间 2026-10-24T08:29:00.525Z 仅为抓取时间，并非数据本身的时点，因此这两个 TVL 数值的准确时点存在不确定性 [3]。\n\n3) Base Sepolia 测试网最新区块概况：来自 Base 官方公共 RPC，网络为 Base Sepolia 测试网（chainId 84532），最新区块高度 49543345，区块哈希 0xf917592d06f8adc29be17d6820e8479915977b535738954be725735a9d1abf48，区块时间戳 2026-10-24T08:28:57.000Z，gasUsed 797431，gasLimit 120000000，baseFee 为 0.005 gwei（5000000 wei），交易数 14；抓取观测时间 2026-10-24T08:29:02.714Z [1]。\n\n测试网与主网区分：第 3 项为 Base Sepolia 测试网（chainId 84532），与第 2 项中的 Base 主网（chainId 8453）及 Ethereum 主网（chainId 1）是不同网络，测试网区块数据不能用于推断主网状态 [1][3]。\n\n缺失与不确定项：未获得 Ethereum Sepolia 或其他测试网数据；未获得 ETH 价格或 TVL 的历史序列，故无法判断趋势；TVL 数据缺少提供方时点，精确观测时刻不确定 [3]。本次仅使用免费公开数据，未发生任何支付、签名或结算 [1][2][3]。",
+    "sources": [
+      {
+        "evidenceId": "evidence_edf730e6f0eb4e1eb8309d3f",
+        "url": "https://sepolia.base.org/",
+        "name": "Base official public RPC",
+        "observedAt": "2026-10-24T08:29:02.714Z",
+        "contentHash": "sha256:9843c3855f2b1eaff2b53e3a640c57f4fa1e294a300c42fbc5a7d7ac7cb5c106"
+      },
+      {
+        "evidenceId": "evidence_ac20abaed93a47be838aab1b",
+        "url": "https://coins.llama.fi/prices/current/coingecko:ethereum",
+        "name": "DefiLlama Coins API",
+        "observedAt": "2026-10-24T08:29:04.130Z",
+        "contentHash": "sha256:0a7136f130523e8b2f1334ead73417876cde2d435a9a92af09cb49950e7132dc"
+      },
+      {
+        "evidenceId": "evidence_051806c14b034aaba4caf170",
+        "url": "https://api.llama.fi/v2/chains",
+        "name": "DefiLlama chains API",
+        "observedAt": "2026-10-24T08:29:00.525Z",
+        "contentHash": "sha256:9a380f61f6bb48c5205a8a9581b7669ff872c4b7a039b7c2762dc9d975c765ab"
+      }
+    ],
+    "evidenceIds": [
+      "evidence_107aed26f1aa41138e77c4e7",
+      "evidence_28167f51e13041569737991a",
+      "evidence_051806c14b034aaba4caf170",
+      "evidence_edf730e6f0eb4e1eb8309d3f",
+      "evidence_ac20abaed93a47be838aab1b",
+      "evidence_77bba409c56a4f1bba44c3ad",
+      "evidence_664f2b5f38134c17b2c5a7b9",
+      "evidence_a2cb5be2e80a4c00903a2e0d",
+      "evidence_5436e2b9eedf49519fadf1bb",
+      "evidence_8370a11459944bd7adccb019",
+      "evidence_1ffa1262650c4d81b9dc343a",
+      "evidence_8d500e5ab26849d9aee49cfa",
+      "evidence_65e5617949df43719a516365"
+    ],
+    "model": {
+      "mode": "LIVE_API",
+      "diagnostics": [
+        {
+          "callId": "model_8ad1eaff176641b88f74639fa16610e7",
+          "role": "worker",
+          "phase": "select",
+          "requestedModel": "deepseek-flash",
+          "startedAt": "2026-10-24T08:29:04.133Z",
+          "maxOutputTokens": 384,
+          "thinking": "disabled",
+          "latencyMs": 681,
+          "status": "SUCCEEDED",
+          "httpStatus": 200,
+          "actualModel": "deepseek-flash",
+          "finishReason": "stop",
+          "usage": {
+            "promptTokens": 1019,
+            "completionTokens": 26,
+            "totalTokens": 1045,
+            "promptCacheHitTokens": 0,
+            "promptCacheMissTokens": 1019
+          }
+        },
+        {
+          "callId": "model_e52bbbca0df94fc2b978bea3e121308b",
+          "role": "consistency",
+          "requestedModel": "deepseek-flash",
+          "startedAt": "2026-10-24T08:29:04.828Z",
+          "maxOutputTokens": 384,
+          "thinking": "disabled",
+          "latencyMs": 799,
+          "status": "SUCCEEDED",
+          "httpStatus": 200,
+          "actualModel": "deepseek-flash",
+          "finishReason": "stop",
+          "usage": {
+            "promptTokens": 1132,
+            "completionTokens": 15,
+            "totalTokens": 1147,
+            "promptCacheHitTokens": 0,
+            "promptCacheMissTokens": 1132
+          }
+        },
+        {
+          "callId": "model_f49412bd51bb4bd38e1c5de244c9a010",
+          "role": "threat",
+          "requestedModel": "deepseek-flash",
+          "startedAt": "2026-10-24T08:29:04.827Z",
+          "maxOutputTokens": 384,
+          "thinking": "disabled",
+          "latencyMs": 925,
+          "status": "SUCCEEDED",
+          "httpStatus": 200,
+          "actualModel": "deepseek-flash",
+          "finishReason": "stop",
+          "usage": {
+            "promptTokens": 483,
+            "completionTokens": 15,
+            "totalTokens": 498,
+            "promptCacheHitTokens": 128,
+            "promptCacheMissTokens": 355
+          }
+        },
+        {
+          "callId": "model_d8831d9d2a8645a293985b750260e965",
+          "role": "threat",
+          "requestedModel": "deepseek-flash",
+          "startedAt": "2026-10-24T08:29:04.827Z",
+          "maxOutputTokens": 384,
+          "thinking": "disabled",
+          "latencyMs": 926,
+          "status": "SUCCEEDED",
+          "httpStatus": 200,
+          "actualModel": "deepseek-flash",
+          "finishReason": "stop",
+          "usage": {
+            "promptTokens": 528,
+            "completionTokens": 15,
+            "totalTokens": 543,
+            "promptCacheHitTokens": 128,
+            "promptCacheMissTokens": 400
+          }
+        },
+        {
+          "callId": "model_8017cf6d7fca45fd9c56342256275416",
+          "role": "consistency",
+          "requestedModel": "deepseek-flash",
+          "startedAt": "2026-10-24T08:29:04.827Z",
+          "maxOutputTokens": 384,
+          "thinking": "disabled",
+          "latencyMs": 959,
+          "status": "SUCCEEDED",
+          "httpStatus": 200,
+          "actualModel": "deepseek-flash",
+          "finishReason": "stop",
+          "usage": {
+            "promptTokens": 1124,
+            "completionTokens": 15,
+            "totalTokens": 1139,
+            "promptCacheHitTokens": 0,
+            "promptCacheMissTokens": 1124
+          }
+        },
+        {
+          "callId": "model_9b501f2c1e9045658416479f0280b4e3",
+          "role": "threat",
+          "requestedModel": "deepseek-flash",
+          "startedAt": "2026-10-24T08:29:04.826Z",
+          "maxOutputTokens": 384,
+          "thinking": "disabled",
+          "latencyMs": 961,
+          "status": "SUCCEEDED",
+          "httpStatus": 200,
+          "actualModel": "deepseek-flash",
+          "finishReason": "stop",
+          "usage": {
+            "promptTokens": 552,
+            "completionTokens": 15,
+            "totalTokens": 567,
+            "promptCacheHitTokens": 128,
+            "promptCacheMissTokens": 424
+          }
+        },
+        {
+          "callId": "model_fb2f91cf54264d2ba44e16c373a664a5",
+          "role": "consistency",
+          "requestedModel": "deepseek-flash",
+          "startedAt": "2026-10-24T08:29:04.826Z",
+          "maxOutputTokens": 384,
+          "thinking": "disabled",
+          "latencyMs": 1028,
+          "status": "SUCCEEDED",
+          "httpStatus": 200,
+          "actualModel": "deepseek-flash",
+          "finishReason": "stop",
+          "usage": {
+            "promptTokens": 1113,
+            "completionTokens": 15,
+            "totalTokens": 1128,
+            "promptCacheHitTokens": 0,
+            "promptCacheMissTokens": 1113
+          }
+        },
+        {
+          "callId": "model_352f3a9455df4af583b28a8dd88b252c",
+          "role": "worker",
+          "phase": "report",
+          "requestedModel": "deepseek-flash",
+          "startedAt": "2026-10-24T08:29:05.854Z",
+          "maxOutputTokens": 1536,
+          "thinking": "disabled",
+          "latencyMs": 3969,
+          "status": "SUCCEEDED",
+          "httpStatus": 200,
+          "actualModel": "deepseek-flash",
+          "finishReason": "stop",
+          "usage": {
+            "promptTokens": 1278,
+            "completionTokens": 662,
+            "totalTokens": 1940,
+            "promptCacheHitTokens": 0,
+            "promptCacheMissTokens": 1278
+          }
+        }
+      ]
+    },
+    "dataMode": "LIVE_HTTP",
+    "paymentMode": "MOCK",
+    "paidCalls": 0,
+    "learningMode": "NO_ONLINE_LABELS"
+  },
+  "budget": {
+    "schemaVersion": "0.1.0",
+    "taskId": "task_4a343fa12f4240ee8b6c67e6d8d6c14e",
+    "asset": {
+      "decimals": 6,
+      "network": "eip155:84532",
+      "symbol": "USDC",
+      "tokenAddress": "0x036cbd53842c5426634e7929541ec2318f3dcf7e"
+    },
+    "limitAtomic": "1000000",
+    "settledAtomic": "0",
+    "reservedAtomic": "0",
+    "outstandingAtomic": "0",
+    "availableAtomic": "1000000",
+    "version": 1
+  },
+  "payments": {
+    "schemaVersion": "0.1.0",
+    "items": [],
+    "nextCursor": null
+  },
+  "reviews": {
+    "schemaVersion": "0.1.0",
+    "items": []
+  },
+  "modelDiagnostics": [
+    {
+      "callId": "model_8ad1eaff176641b88f74639fa16610e7",
+      "role": "worker",
+      "phase": "select",
+      "requestedModel": "deepseek-flash",
+      "startedAt": "2026-10-24T08:29:04.133Z",
+      "maxOutputTokens": 384,
+      "thinking": "disabled",
+      "latencyMs": 681,
+      "status": "SUCCEEDED",
+      "httpStatus": 200,
+      "actualModel": "deepseek-flash",
+      "finishReason": "stop",
+      "usage": {
+        "promptTokens": 1019,
+        "completionTokens": 26,
+        "totalTokens": 1045,
+        "promptCacheHitTokens": 0,
+        "promptCacheMissTokens": 1019
+      }
+    },
+    {
+      "callId": "model_e52bbbca0df94fc2b978bea3e121308b",
+      "role": "consistency",
+      "requestedModel": "deepseek-flash",
+      "startedAt": "2026-10-24T08:29:04.828Z",
+      "maxOutputTokens": 384,
+      "thinking": "disabled",
+      "latencyMs": 799,
+      "status": "SUCCEEDED",
+      "httpStatus": 200,
+      "actualModel": "deepseek-flash",
+      "finishReason": "stop",
+      "usage": {
+        "promptTokens": 1132,
+        "completionTokens": 15,
+        "totalTokens": 1147,
+        "promptCacheHitTokens": 0,
+        "promptCacheMissTokens": 1132
+      }
+    },
+    {
+      "callId": "model_f49412bd51bb4bd38e1c5de244c9a010",
+      "role": "threat",
+      "requestedModel": "deepseek-flash",
+      "startedAt": "2026-10-24T08:29:04.827Z",
+      "maxOutputTokens": 384,
+      "thinking": "disabled",
+      "latencyMs": 925,
+      "status": "SUCCEEDED",
+      "httpStatus": 200,
+      "actualModel": "deepseek-flash",
+      "finishReason": "stop",
+      "usage": {
+        "promptTokens": 483,
+        "completionTokens": 15,
+        "totalTokens": 498,
+        "promptCacheHitTokens": 128,
+        "promptCacheMissTokens": 355
+      }
+    },
+    {
+      "callId": "model_d8831d9d2a8645a293985b750260e965",
+      "role": "threat",
+      "requestedModel": "deepseek-flash",
+      "startedAt": "2026-10-24T08:29:04.827Z",
+      "maxOutputTokens": 384,
+      "thinking": "disabled",
+      "latencyMs": 926,
+      "status": "SUCCEEDED",
+      "httpStatus": 200,
+      "actualModel": "deepseek-flash",
+      "finishReason": "stop",
+      "usage": {
+        "promptTokens": 528,
+        "completionTokens": 15,
+        "totalTokens": 543,
+        "promptCacheHitTokens": 128,
+        "promptCacheMissTokens": 400
+      }
+    },
+    {
+      "callId": "model_8017cf6d7fca45fd9c56342256275416",
+      "role": "consistency",
+      "requestedModel": "deepseek-flash",
+      "startedAt": "2026-10-24T08:29:04.827Z",
+      "maxOutputTokens": 384,
+      "thinking": "disabled",
+      "latencyMs": 959,
+      "status": "SUCCEEDED",
+      "httpStatus": 200,
+      "actualModel": "deepseek-flash",
+      "finishReason": "stop",
+      "usage": {
+        "promptTokens": 1124,
+        "completionTokens": 15,
+        "totalTokens": 1139,
+        "promptCacheHitTokens": 0,
+        "promptCacheMissTokens": 1124
+      }
+    },
+    {
+      "callId": "model_9b501f2c1e9045658416479f0280b4e3",
+      "role": "threat",
+      "requestedModel": "deepseek-flash",
+      "startedAt": "2026-10-24T08:29:04.826Z",
+      "maxOutputTokens": 384,
+      "thinking": "disabled",
+      "latencyMs": 961,
+      "status": "SUCCEEDED",
+      "httpStatus": 200,
+      "actualModel": "deepseek-flash",
+      "finishReason": "stop",
+      "usage": {
+        "promptTokens": 552,
+        "completionTokens": 15,
+        "totalTokens": 567,
+        "promptCacheHitTokens": 128,
+        "promptCacheMissTokens": 424
+      }
+    },
+    {
+      "callId": "model_fb2f91cf54264d2ba44e16c373a664a5",
+      "role": "consistency",
+      "requestedModel": "deepseek-flash",
+      "startedAt": "2026-10-24T08:29:04.826Z",
+      "maxOutputTokens": 384,
+      "thinking": "disabled",
+      "latencyMs": 1028,
+      "status": "SUCCEEDED",
+      "httpStatus": 200,
+      "actualModel": "deepseek-flash",
+      "finishReason": "stop",
+      "usage": {
+        "promptTokens": 1113,
+        "completionTokens": 15,
+        "totalTokens": 1128,
+        "promptCacheHitTokens": 0,
+        "promptCacheMissTokens": 1113
+      }
+    },
+    {
+      "callId": "model_352f3a9455df4af583b28a8dd88b252c",
+      "role": "worker",
+      "phase": "report",
+      "requestedModel": "deepseek-flash",
+      "startedAt": "2026-10-24T08:29:05.854Z",
+      "maxOutputTokens": 1536,
+      "thinking": "disabled",
+      "latencyMs": 3969,
+      "status": "SUCCEEDED",
+      "httpStatus": 200,
+      "actualModel": "deepseek-flash",
+      "finishReason": "stop",
+      "usage": {
+        "promptTokens": 1278,
+        "completionTokens": 662,
+        "totalTokens": 1940,
+        "promptCacheHitTokens": 0,
+        "promptCacheMissTokens": 1278
+      }
+    }
+  ],
+  "modelProof": [
+    {
+      "callId": "model_8ad1eaff176641b88f74639fa16610e7",
+      "role": "worker",
+      "phase": "select",
+      "requestedModel": "deepseek-flash",
+      "startedAt": "2026-10-24T08:29:04.133Z",
+      "maxOutputTokens": 384,
+      "thinking": "disabled",
+      "latencyMs": 681,
+      "status": "SUCCEEDED",
+      "httpStatus": 200,
+      "actualModel": "deepseek-flash",
+      "finishReason": "stop",
+      "usage": {
+        "promptTokens": 1019,
+        "completionTokens": 26,
+        "totalTokens": 1045,
+        "promptCacheHitTokens": 0,
+        "promptCacheMissTokens": 1019
+      }
+    },
+    {
+      "callId": "model_e52bbbca0df94fc2b978bea3e121308b",
+      "role": "consistency",
+      "requestedModel": "deepseek-flash",
+      "startedAt": "2026-10-24T08:29:04.828Z",
+      "maxOutputTokens": 384,
+      "thinking": "disabled",
+      "latencyMs": 799,
+      "status": "SUCCEEDED",
+      "httpStatus": 200,
+      "actualModel": "deepseek-flash",
+      "finishReason": "stop",
+      "usage": {
+        "promptTokens": 1132,
+        "completionTokens": 15,
+        "totalTokens": 1147,
+        "promptCacheHitTokens": 0,
+        "promptCacheMissTokens": 1132
+      }
+    },
+    {
+      "callId": "model_f49412bd51bb4bd38e1c5de244c9a010",
+      "role": "threat",
+      "requestedModel": "deepseek-flash",
+      "startedAt": "2026-10-24T08:29:04.827Z",
+      "maxOutputTokens": 384,
+      "thinking": "disabled",
+      "latencyMs": 925,
+      "status": "SUCCEEDED",
+      "httpStatus": 200,
+      "actualModel": "deepseek-flash",
+      "finishReason": "stop",
+      "usage": {
+        "promptTokens": 483,
+        "completionTokens": 15,
+        "totalTokens": 498,
+        "promptCacheHitTokens": 128,
+        "promptCacheMissTokens": 355
+      }
+    },
+    {
+      "callId": "model_d8831d9d2a8645a293985b750260e965",
+      "role": "threat",
+      "requestedModel": "deepseek-flash",
+      "startedAt": "2026-10-24T08:29:04.827Z",
+      "maxOutputTokens": 384,
+      "thinking": "disabled",
+      "latencyMs": 926,
+      "status": "SUCCEEDED",
+      "httpStatus": 200,
+      "actualModel": "deepseek-flash",
+      "finishReason": "stop",
+      "usage": {
+        "promptTokens": 528,
+        "completionTokens": 15,
+        "totalTokens": 543,
+        "promptCacheHitTokens": 128,
+        "promptCacheMissTokens": 400
+      }
+    },
+    {
+      "callId": "model_8017cf6d7fca45fd9c56342256275416",
+      "role": "consistency",
+      "requestedModel": "deepseek-flash",
+      "startedAt": "2026-10-24T08:29:04.827Z",
+      "maxOutputTokens": 384,
+      "thinking": "disabled",
+      "latencyMs": 959,
+      "status": "SUCCEEDED",
+      "httpStatus": 200,
+      "actualModel": "deepseek-flash",
+      "finishReason": "stop",
+      "usage": {
+        "promptTokens": 1124,
+        "completionTokens": 15,
+        "totalTokens": 1139,
+        "promptCacheHitTokens": 0,
+        "promptCacheMissTokens": 1124
+      }
+    },
+    {
+      "callId": "model_9b501f2c1e9045658416479f0280b4e3",
+      "role": "threat",
+      "requestedModel": "deepseek-flash",
+      "startedAt": "2026-10-24T08:29:04.826Z",
+      "maxOutputTokens": 384,
+      "thinking": "disabled",
+      "latencyMs": 961,
+      "status": "SUCCEEDED",
+      "httpStatus": 200,
+      "actualModel": "deepseek-flash",
+      "finishReason": "stop",
+      "usage": {
+        "promptTokens": 552,
+        "completionTokens": 15,
+        "totalTokens": 567,
+        "promptCacheHitTokens": 128,
+        "promptCacheMissTokens": 424
+      }
+    },
+    {
+      "callId": "model_fb2f91cf54264d2ba44e16c373a664a5",
+      "role": "consistency",
+      "requestedModel": "deepseek-flash",
+      "startedAt": "2026-10-24T08:29:04.826Z",
+      "maxOutputTokens": 384,
+      "thinking": "disabled",
+      "latencyMs": 1028,
+      "status": "SUCCEEDED",
+      "httpStatus": 200,
+      "actualModel": "deepseek-flash",
+      "finishReason": "stop",
+      "usage": {
+        "promptTokens": 1113,
+        "completionTokens": 15,
+        "totalTokens": 1128,
+        "promptCacheHitTokens": 0,
+        "promptCacheMissTokens": 1113
+      }
+    },
+    {
+      "callId": "model_352f3a9455df4af583b28a8dd88b252c",
+      "role": "worker",
+      "phase": "report",
+      "requestedModel": "deepseek-flash",
+      "startedAt": "2026-10-24T08:29:05.854Z",
+      "maxOutputTokens": 1536,
+      "thinking": "disabled",
+      "latencyMs": 3969,
+      "status": "SUCCEEDED",
+      "httpStatus": 200,
+      "actualModel": "deepseek-flash",
+      "finishReason": "stop",
+      "usage": {
+        "promptTokens": 1278,
+        "completionTokens": 662,
+        "totalTokens": 1940,
+        "promptCacheHitTokens": 0,
+        "promptCacheMissTokens": 1278
+      }
+    }
+  ],
+  "sourceProof": [
+    {
+      "evidenceId": "evidence_edf730e6f0eb4e1eb8309d3f",
+      "url": "https://sepolia.base.org/",
+      "name": "Base official public RPC",
+      "observedAt": "2026-10-24T08:29:02.714Z",
+      "contentHash": "sha256:9843c3855f2b1eaff2b53e3a640c57f4fa1e294a300c42fbc5a7d7ac7cb5c106"
+    },
+    {
+      "evidenceId": "evidence_ac20abaed93a47be838aab1b",
+      "url": "https://coins.llama.fi/prices/current/coingecko:ethereum",
+      "name": "DefiLlama Coins API",
+      "observedAt": "2026-10-24T08:29:04.130Z",
+      "contentHash": "sha256:0a7136f130523e8b2f1334ead73417876cde2d435a9a92af09cb49950e7132dc"
+    },
+    {
+      "evidenceId": "evidence_051806c14b034aaba4caf170",
+      "url": "https://api.llama.fi/v2/chains",
+      "name": "DefiLlama chains API",
+      "observedAt": "2026-10-24T08:29:00.525Z",
+      "contentHash": "sha256:9a380f61f6bb48c5205a8a9581b7669ff872c4b7a039b7c2762dc9d975c765ab"
+    }
+  ],
+  "sourceReachability": [
+    {
+      "url": "https://sepolia.base.org/",
+      "method": "eth_chainId (read only)",
+      "status": 200,
+      "contentType": "application/json",
+      "jsonPayloadVerified": true,
+      "dataSummary": {
+        "chainId": 84532,
+        "network": "Base Sepolia testnet"
+      },
+      "bytes": 43,
+      "rawBodySha256": "6a34b6e16103a2ddc4e1ebecfc6ecf7e99ff1311252883b539a3c5fa67f36f88",
+      "checkedAt": "2026-10-24T08:31:59.971Z"
+    },
+    {
+      "url": "https://coins.llama.fi/prices/current/coingecko:ethereum",
+      "method": "GET",
+      "status": 200,
+      "contentType": "application/json; charset=utf-8",
+      "jsonPayloadVerified": true,
+      "dataSummary": {
+        "symbol": "ETH",
+        "ethUsd": 2371.257622252611,
+        "providerTimestamp": "2026-10-24T08:30:02.000Z"
+      },
+      "bytes": 116,
+      "rawBodySha256": "42a1454cec1d56679ae1f1c3267e02f0489b1c6dc892ee4b60a9e25fe93f8ac5",
+      "checkedAt": "2026-10-24T08:32:01.422Z"
+    },
+    {
+      "url": "https://api.llama.fi/v2/chains",
+      "method": "GET",
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "jsonPayloadVerified": true,
+      "dataSummary": [
+        {
+          "name": "Ethereum",
+          "chainId": 1,
+          "tvlUsd": 49238741229.46636,
+          "providerTimestamp": "not provided"
+        },
+        {
+          "name": "Base",
+          "chainId": 8453,
+          "tvlUsd": 6080971090.870611,
+          "providerTimestamp": "not provided"
+        }
+      ],
+      "bytes": 58061,
+      "rawBodySha256": "d173a090eebaaaeb0acf6f40293376fa37454d86a4c6ac5b6fa67c409bbceaca",
+      "checkedAt": "2026-10-24T08:32:01.112Z"
+    }
+  ],
+  "curator": "Not run: NO_ONLINE_LABELS; no trustworthy attack label for promotion.",
+  "finishedAt": "2026-10-24T08:32:01.423Z"
+}

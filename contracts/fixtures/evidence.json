@@ -1,0 +1,12 @@
+{
+  "schemaVersion": "0.1.0",
+  "evidenceId": "evidence_demo",
+  "taskId": "task_demo",
+  "sourceKind": "TOOL_RESPONSE",
+  "trust": "EXTERNAL_UNTRUSTED",
+  "parentIds": [],
+  "parentClosureHash": "sha256:7777777777777777777777777777777777777777777777777777777777777777",
+  "contentHash": "sha256:8888888888888888888888888888888888888888888888888888888888888888",
+  "excerpt": "演示工具结果片段；始终按不可信纯文本展示。",
+  "recordedAt": "2026-10-24T06:00:00.000Z"
+}

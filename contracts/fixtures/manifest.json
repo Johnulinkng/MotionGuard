@@ -1,0 +1,53 @@
+{
+  "contractVersion": "0.2.0",
+  "fixtures": [
+    {
+      "file": "catalog.json",
+      "schema": "Catalog"
+    },
+    {
+      "file": "resource-plan.json",
+      "schema": "ResourcePlan"
+    },
+    {
+      "file": "normal-task.json",
+      "schema": "TaskSnapshot"
+    },
+    {
+      "file": "allowed-payment.json",
+      "schema": "PaymentView"
+    },
+    {
+      "file": "blocked-payment.json",
+      "schema": "PaymentView"
+    },
+    {
+      "file": "review-required.json",
+      "schema": "ReviewView"
+    },
+    {
+      "file": "unknown-payment.json",
+      "schema": "PaymentView"
+    },
+    {
+      "file": "active-lesson.json",
+      "schema": "LessonView"
+    },
+    {
+      "file": "evidence.json",
+      "schema": "EvidenceSummary"
+    },
+    {
+      "file": "task-result.json",
+      "schema": "TaskResult"
+    },
+    {
+      "file": "task-result-failed.json",
+      "schema": "TaskResult"
+    },
+    {
+      "file": "catalog-free.json",
+      "schema": "Catalog"
+    }
+  ]
+}

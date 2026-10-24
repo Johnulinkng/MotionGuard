@@ -1,0 +1,30 @@
+{
+  "schemaVersion": "0.2.0",
+  "taskId": "task_demo",
+  "status": "FAILED",
+  "report": "格式示例：模型接口失败，未生成真实报告；此fixture没有发起模型调用。",
+  "sources": [],
+  "evidenceIds": [],
+  "model": {
+    "mode": "LIVE_API",
+    "diagnostics": [
+      {
+        "callId": "model_fixture_failed",
+        "role": "worker",
+        "requestedModel": "fixture_model",
+        "startedAt": "2026-10-24T08:00:00.000Z",
+        "latencyMs": 12,
+        "status": "FAILED",
+        "httpStatus": 503,
+        "errorCategory": "HTTP_SERVER",
+        "maxOutputTokens": 384,
+        "thinking": "disabled",
+        "phase": "report"
+      }
+    ]
+  },
+  "dataMode": "LIVE_HTTP",
+  "paymentMode": "MOCK",
+  "paidCalls": 0,
+  "learningMode": "NO_ONLINE_LABELS"
+}

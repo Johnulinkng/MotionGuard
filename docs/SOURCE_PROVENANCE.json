@@ -1,0 +1,42 @@
+{
+  "exportedAt": "2026-10-24T09:07:37.094Z",
+  "repository": "https://github.com/Johnulinkng/MotionGuard",
+  "sourceSnapshots": {
+    "frontend": "89d72ffa59729bc5ccf29152fc990914bbfe531b",
+    "backend": "d59f45dbec5a427269e518017fca08301bdf2089",
+    "contracts": "fa1191ead9063d4bf9c30150f392c2b9b79e6940"
+  },
+  "contractVersion": "0.2.0",
+  "openapiSha256": "d470a5e6d57427b37e3fc3db2b845c8a2cf295a586f5a7766742fbc241f58235",
+  "bundleSha256": "0410c9d200b8fbaf68ac6ec9c28f88a29a77bac3055fac4891175a8d70e61d64",
+  "applicationSourceChangedForPublication": false,
+  "publicationAdjustments": [
+    "New root README and portable documentation",
+    "Local coordination instructions and machine-specific history excluded",
+    "backend README uses a relative startup path and single-repository wording",
+    "Added original browser screenshots and selected public run evidence",
+    "Copied the contract publisher from the original workspace tools directory"
+  ],
+  "images": [
+    {
+      "file": "docs/images/01-live-workspace-desktop.png",
+      "sha256": "7ac5a392c0281550add79a78f58937c2b94c8943174c498bf26ff16872b045fe"
+    },
+    {
+      "file": "docs/images/02-live-report-complete.png",
+      "sha256": "594bb6037713effc96aa6c2b0dc98901d2df45709223b3f2ed036ba61ab88ce9"
+    },
+    {
+      "file": "docs/images/03-live-sources-model-diagnostics.png",
+      "sha256": "4f8f1befa496012808f7a1037a6bbfcd00d3628b70330afd276272d9a5dc7d89"
+    },
+    {
+      "file": "docs/images/04-live-report-mobile-390.png",
+      "sha256": "f9002b65835577cb7a03c98b534b5a4781e9af32c50f4c997616436a79693a06"
+    },
+    {
+      "file": "docs/images/05-live-workspace-mobile-390.png",
+      "sha256": "27323a433d373a45dd33bd9896d187ab2e7d4624392f1adfbf62d23f01be1850"
+    }
+  ]
+}

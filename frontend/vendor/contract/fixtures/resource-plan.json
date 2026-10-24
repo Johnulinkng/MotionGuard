@@ -1,0 +1,33 @@
+{
+  "schemaVersion": "0.1.0",
+  "planId": "plan_demo",
+  "taskId": "task_demo",
+  "version": 1,
+  "status": "FROZEN",
+  "goalHash": "sha256:2222222222222222222222222222222222222222222222222222222222222222",
+  "catalogVersion": "catalog_v1",
+  "planHash": "sha256:3333333333333333333333333333333333333333333333333333333333333333",
+  "items": [
+    {
+      "itemId": "item_report",
+      "goalStepId": "goal_compare",
+      "resourceKind": "DOCUMENT",
+      "toolId": "tool_alpha",
+      "vendorId": "vendor_alpha",
+      "routeId": "route_alpha_report",
+      "selectors": {
+        "entityIds": [
+          "supplier_alpha"
+        ]
+      },
+      "unitPriceCapAtomic": "10000",
+      "maxPaidCalls": 1,
+      "subtotalCapAtomic": "10000",
+      "dependsOn": [],
+      "purpose": "为用户指定供应商比较购买一份资料"
+    }
+  ],
+  "totalCapAtomic": "1000000",
+  "expiresAt": "2099-01-01T00:00:00.000Z",
+  "createdAt": "2026-10-24T06:00:00.000Z"
+}

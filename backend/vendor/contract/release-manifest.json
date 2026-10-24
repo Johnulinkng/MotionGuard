@@ -1,0 +1,73 @@
+{
+  "contract_version": "0.2.0",
+  "sha256": "d470a5e6d57427b37e3fc3db2b845c8a2cf295a586f5a7766742fbc241f58235",
+  "bundle_sha256": "0410c9d200b8fbaf68ac6ec9c28f88a29a77bac3055fac4891175a8d70e61d64",
+  "files": [
+    {
+      "path": "API_GUIDE.md",
+      "sha256": "225960525b1036448c43bd67bfca819fef102910f19386c9d4fa3f1d7bffdf33"
+    },
+    {
+      "path": "fixtures/active-lesson.json",
+      "sha256": "dd5d0bc525ad013f27fe7f2fc2fc58b1e311a1e7dc319877ae26eef40b6f7b0d"
+    },
+    {
+      "path": "fixtures/allowed-payment.json",
+      "sha256": "da0d20b43ad8c5100c45779edb2a627011555048fafb6cc0fbb545034ca4d7d5"
+    },
+    {
+      "path": "fixtures/blocked-payment.json",
+      "sha256": "299c3abb3d92a0b301c336b4f3a5453804a4857b25cfac1025147eb1b515bda6"
+    },
+    {
+      "path": "fixtures/catalog-free.json",
+      "sha256": "39de6dab3aef5c32d714d1d2b97e0b253dc806d467099e9cd1228a441e86bc58"
+    },
+    {
+      "path": "fixtures/catalog.json",
+      "sha256": "de5561e83ec590aa18791f51ce1142f181f42bf4d5aa97234d74640a396f8df0"
+    },
+    {
+      "path": "fixtures/evidence.json",
+      "sha256": "240c6f7f5ff83da499c0ea3596e7fdd36f154357d2782c3729feb3403f13209f"
+    },
+    {
+      "path": "fixtures/manifest.json",
+      "sha256": "94e83117becaf4c8f76e5f88234ff43508c661077187366c07defd9dbea46a97"
+    },
+    {
+      "path": "fixtures/normal-task.json",
+      "sha256": "56f3d71391002cb7733bcdf5257d674bf4841846fc245e3b28eee4cc2dda11fb"
+    },
+    {
+      "path": "fixtures/resource-plan.json",
+      "sha256": "6d371c6aef78d64878afde43a7f328abb699096e0618de86a756b480b3fc4a59"
+    },
+    {
+      "path": "fixtures/review-required.json",
+      "sha256": "c80b812906043fd66e69d0f39f98433654f841f53399a50c7eeb119d73108ede"
+    },
+    {
+      "path": "fixtures/task-result-failed.json",
+      "sha256": "298968043c7effc308f7bb1e8ab97562c26ca6a9e7ee14af62c04b0bd64654b8"
+    },
+    {
+      "path": "fixtures/task-result.json",
+      "sha256": "51dd0eaec7c62a067b85ebf4133be52f1b6b3ad53e62d446cd7ceb880282bc2a"
+    },
+    {
+      "path": "fixtures/unknown-payment.json",
+      "sha256": "c887a41ef1ae5aadd08458a6ace7293a9d4da66a281fccb6d13345a3ebf6e8f2"
+    },
+    {
+      "path": "mock-server.mjs",
+      "sha256": "2c66c379063410e3de68807cc1d811db65ad6f261b0f53559451e89dd4047396"
+    },
+    {
+      "path": "openapi.json",
+      "sha256": "d470a5e6d57427b37e3fc3db2b845c8a2cf295a586f5a7766742fbc241f58235"
+    }
+  ],
+  "published_at": "2026-10-24T08:08:48.292Z",
+  "verification_scope": "schema, fixtures and mock; no product or payment validation"
+}

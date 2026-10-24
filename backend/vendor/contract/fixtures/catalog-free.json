@@ -1,0 +1,32 @@
+{
+  "schemaVersion": "0.1.0",
+  "catalogVersion": "catalog_free_example",
+  "asset": {
+    "network": "eip155:84532",
+    "tokenAddress": "0x036cbd53842c5426634e7929541ec2318f3dcf7e",
+    "symbol": "USDC",
+    "decimals": 6
+  },
+  "vendors": [
+    {
+      "vendorId": "vendor_public_example",
+      "name": "免费公开数据格式示例",
+      "payTo": null,
+      "toolId": "tool_public_example",
+      "routeId": "route_public_example",
+      "resourceKind": "MARKET_DATA",
+      "description": "仅格式示例，不存在已验收商家或真实读取。",
+      "toolDescriptorHash": "sha256:1111111111111111111111111111111111111111111111111111111111111111",
+      "billing": {
+        "kind": "FREE_PUBLIC_DATA",
+        "amountAtomic": "0",
+        "requiresPayment": false
+      },
+      "source": {
+        "name": "示例公开源（未读取）",
+        "url": "https://example.invalid/public-data",
+        "docsUrl": "https://example.invalid/docs"
+      }
+    }
+  ]
+}

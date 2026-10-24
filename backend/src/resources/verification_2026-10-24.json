@@ -1,0 +1,62 @@
+{
+  "scope": "read-only public resource verification; no model API, key file, signature or payment",
+  "initial_system_dns": {
+    "checked_at": null,
+    "status": "FAIL",
+    "passed": 0,
+    "total": 3,
+    "observed": {
+      "sepolia.base.org": "198.18.0.79",
+      "coins.llama.fi": "198.18.0.120",
+      "api.llama.fi": "198.18.0.121"
+    },
+    "error": "PUBLIC_SOURCE_UNAVAILABLE",
+    "diagnosed_cause": "NonPublicAddressError; benchmark/fake-IP DNS answers correctly rejected"
+  },
+  "live_passes": [
+    {
+      "checked_at": "2026-10-24T08:06:12.567Z",
+      "routeId": "route_base_sepolia",
+      "source": "https://sepolia.base.org/",
+      "transport": "LIVE_HTTP",
+      "sourceTimestamp": "2026-10-24T08:06:07.000Z",
+      "responseBytes": 2955,
+      "contentHash": "sha256:9f62e4f5a57c49335d3af7e55b25866487213839935b3db347253624500690ce",
+      "rawContentHash": "sha256:11e1c337696a697275c4cdf5dc5772ba9900685958285747768caff131f5d92f",
+      "observed": {"chainId":84532,"blockNumber":"49536495","baseFeeGwei":"0.005","transactionCount":16}
+    },
+    {
+      "checked_at": "2026-10-24T08:06:15.554Z",
+      "routeId": "route_eth_price",
+      "source": "https://coins.llama.fi/prices/current/coingecko:ethereum",
+      "transport": "LIVE_HTTP",
+      "sourceTimestamp": "2026-10-24T08:04:42.000Z",
+      "responseBytes": 117,
+      "contentHash": "sha256:e916b75e0502a6d87d774bef137fd6f7d54ec9a00ccb2f70d74d9cec35f74245",
+      "rawContentHash": "sha256:ccdbbcb42e6b8bfd215c5436c0fe8760262e6e05402c1b65a446e72bed894811",
+      "observed": {"asset":"ETH","currency":"USD","price":2371.1281639747554,"confidence":0.99}
+    },
+    {
+      "checked_at": "2026-10-24T08:09:43.336Z",
+      "routeId": "route_chain_tvl",
+      "source": "https://api.llama.fi/v2/chains",
+      "transport": "LIVE_HTTP",
+      "sourceTimestamp": null,
+      "responseBytes": 58053,
+      "contentHash": "sha256:2b267246ea02452e8a2f81be2fdafe6f426cc7d8782daf4e3c7d5a8d3e493d67",
+      "rawContentHash": "sha256:8482c54464567da86f1f6f420cb668ed4112525889251e730f2a2fdb65ccd46e",
+      "observed": {"EthereumTvlUsd":49245687984.631546,"BaseTvlUsd":6082076950.16715},
+      "as_of_note": "provider does not provide a snapshot timestamp"
+    }
+  ],
+  "intermediate_failures": [
+    {"checked_at":null,"routeId":"route_chain_tvl","error":"PUBLIC_SOURCE_CONTENT_TYPE_INVALID","observed_http_status":200,"observed_content_type":"text/html; charset=utf-8","diagnosis":"body is valid JSON array; fixed endpoint now accepts that media-type mislabel, still validates JSON schema; Base.tokenSymbol is legitimately null"},
+    {"checked_at":null,"routeId":"route_chain_tvl","error":"PUBLIC_SOURCE_UNAVAILABLE","elapsed_ms":4029.3791,"cause":"not verified; no claim that the timeout or provider was conclusively responsible"}
+  ],
+  "limitations": [
+    "passes were captured at different times; not one simultaneous 3/3 run",
+    "external availability and rate limits may change",
+    "current snapshots do not establish historical trends",
+    "free data never authorizes payment; no configured x402 merchant"
+  ]
+}

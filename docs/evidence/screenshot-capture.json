@@ -1,0 +1,166 @@
+{
+  "capturedAt": "2026-10-24T08:48:17.661Z",
+  "taskId": "task_4a343fa12f4240ee8b6c67e6d8d6c14e",
+  "status": "COMPLETED",
+  "modelMode": "LIVE_API",
+  "dataMode": "LIVE_HTTP",
+  "paymentMode": "MOCK",
+  "paidCalls": 0,
+  "learningMode": "NO_ONLINE_LABELS",
+  "reportLength": 1074,
+  "sources": [
+    {
+      "evidenceId": "evidence_edf730e6f0eb4e1eb8309d3f",
+      "url": "https://sepolia.base.org/",
+      "name": "Base official public RPC",
+      "observedAt": "2026-10-24T08:29:02.714Z",
+      "contentHash": "sha256:9843c3855f2b1eaff2b53e3a640c57f4fa1e294a300c42fbc5a7d7ac7cb5c106"
+    },
+    {
+      "evidenceId": "evidence_ac20abaed93a47be838aab1b",
+      "url": "https://coins.llama.fi/prices/current/coingecko:ethereum",
+      "name": "DefiLlama Coins API",
+      "observedAt": "2026-10-24T08:29:04.130Z",
+      "contentHash": "sha256:0a7136f130523e8b2f1334ead73417876cde2d435a9a92af09cb49950e7132dc"
+    },
+    {
+      "evidenceId": "evidence_051806c14b034aaba4caf170",
+      "url": "https://api.llama.fi/v2/chains",
+      "name": "DefiLlama chains API",
+      "observedAt": "2026-10-24T08:29:00.525Z",
+      "contentHash": "sha256:9a380f61f6bb48c5205a8a9581b7669ff872c4b7a039b7c2762dc9d975c765ab"
+    }
+  ],
+  "diagnostics": [
+    {
+      "role": "worker",
+      "phase": "select",
+      "status": "SUCCEEDED",
+      "requestedModel": "deepseek-flash",
+      "actualModel": "deepseek-flash",
+      "httpStatus": 200
+    },
+    {
+      "role": "consistency",
+      "status": "SUCCEEDED",
+      "requestedModel": "deepseek-flash",
+      "actualModel": "deepseek-flash",
+      "httpStatus": 200
+    },
+    {
+      "role": "threat",
+      "status": "SUCCEEDED",
+      "requestedModel": "deepseek-flash",
+      "actualModel": "deepseek-flash",
+      "httpStatus": 200
+    },
+    {
+      "role": "threat",
+      "status": "SUCCEEDED",
+      "requestedModel": "deepseek-flash",
+      "actualModel": "deepseek-flash",
+      "httpStatus": 200
+    },
+    {
+      "role": "consistency",
+      "status": "SUCCEEDED",
+      "requestedModel": "deepseek-flash",
+      "actualModel": "deepseek-flash",
+      "httpStatus": 200
+    },
+    {
+      "role": "threat",
+      "status": "SUCCEEDED",
+      "requestedModel": "deepseek-flash",
+      "actualModel": "deepseek-flash",
+      "httpStatus": 200
+    },
+    {
+      "role": "consistency",
+      "status": "SUCCEEDED",
+      "requestedModel": "deepseek-flash",
+      "actualModel": "deepseek-flash",
+      "httpStatus": 200
+    },
+    {
+      "role": "worker",
+      "phase": "report",
+      "status": "SUCCEEDED",
+      "requestedModel": "deepseek-flash",
+      "actualModel": "deepseek-flash",
+      "httpStatus": 200
+    }
+  ],
+  "networkAudit": {
+    "getRequests": 39,
+    "nonGetRequests": [],
+    "pageErrors": []
+  },
+  "newTasksCreated": 0,
+  "modelCallsTriggeredByCapture": 0,
+  "imagesEdited": false,
+  "captures": [
+    {
+      "file": "01-live-workspace-desktop.png",
+      "kind": "desktop viewport at current task and report",
+      "viewport": {
+        "width": 1440,
+        "height": 1100
+      }
+    },
+    {
+      "file": "02-live-report-complete.png",
+      "kind": "complete public report locator, modes, payment count and sources",
+      "viewport": {
+        "width": 1440,
+        "height": 1100
+      },
+      "box": {
+        "x": 267,
+        "y": 70.65625,
+        "width": 805,
+        "height": 1029.46875
+      }
+    },
+    {
+      "file": "03-live-sources-model-diagnostics.png",
+      "kind": "public sources and expanded provider diagnostics",
+      "viewport": {
+        "width": 1440,
+        "height": 1100
+      },
+      "clip": {
+        "x": 267,
+        "y": 1355.296875,
+        "width": 805,
+        "height": 964.1875
+      }
+    },
+    {
+      "file": "04-live-report-mobile-390.png",
+      "kind": "390 px result viewport with independent model/data/payment modes",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      }
+    },
+    {
+      "file": "05-live-workspace-mobile-390.png",
+      "kind": "390 px workspace viewport, actual task header and sandbox payment banner",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      }
+    }
+  ],
+  "mobileCapture": {
+    "fresh390pxViewport": true,
+    "layout": {
+      "viewport": 390,
+      "document": 390,
+      "sidebarRight": 0
+    },
+    "getRequests": 19,
+    "nonGetRequests": []
+  }
+}
